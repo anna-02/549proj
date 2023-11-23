@@ -1,12 +1,38 @@
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+
+
 h1 {
     border: 2px #eee solid;
-    color: brown;
+    color: black;
     text-align: center;
     padding: 10px;
 }
 
 h2 {
     border: 2px #eee solid;
-    color: blue;
     padding: 10px;
+    color: black;
+}
+
+a {
+    color: black
+}
+
+#ru {
+    color: red;
+}
+
+#us {
+    color: blue;
+}
+
+.result {
+    margin: 20px;
+    padding: 10px;
+    /* outline: 2px solid #CCC; */
+    border: 0.5px solid #c2c2c2;
 }

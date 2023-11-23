@@ -1,42 +1,23 @@
 from flask import Flask, render_template, redirect, url_for
-from wtforms import Form, BooleanField, StringField, SubmitField, validators
 import pandas as pd
 from flask import request
+from flask_functions import *
+import json
 
 app = Flask(__name__)
-
-class BasicForm(Form):
-    query = StringField("query",validators=[validators.DataRequired()])
-    submit = SubmitField("Submit")
-
-def get_offline_results():
-   df = pd.read_csv('bag_of_words_translated - temp for figs.csv')
-   return df
+df = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv', ftype='csv')
 
 
-def do_search():
-   results = ['I','am','tired']
-   # iterate over each row in the subfeatures dataset
-   # for subfeature_index, subfeature_row in subfeatures.iterrows():
-   #   similarity = cosine_similarity(
-   #       ast.literal_eval(subfeature_row['Description Embeddings']),
-   #       embed_description)
-    
-   # # compute the cosine similarity between the query and all the rows in the corpus
-   #   results.append({
-   #       "score": similarity,
-   #       "subfeature": subfeature_row['Name'],
-   #       })
-
-    
-   #results = sorted(results, key=lambda x: x['score'], reverse=True)
-   return results[:5]
+def do_search(query):
+   results =  baseline_ranker(query, df)
+   print(results)
+   return results
 
 
 @app.route('/results/q=<query>')
 def results(query):
-   results = do_search()
-   return render_template('result.html', query=query, pages=results)
+   results = do_search(query)
+   return render_template('result.html', query=query, results=results)
 
 
 @app.route('/', methods=['GET','POST'])
@@ -48,4 +29,4 @@ def index():
       return redirect(url_for('results',query=query))
 
 if __name__ == '__main__':
-   app.run(debug=True)
+   app.run(port=8000, debug=True)

@@ -5,7 +5,20 @@
         <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     </head>
     <body>
-        {{pages}}
+        <h2>Results for {{query}} </h2>
+        <h3 id="us">US results are blue</h3>
+        <h3 id="ru">RU results are red</h3>
+        {% for row in results %}
+        <div id= "{{ row['country'] }}"class='result' >
+            <div> <b> <u>{{ row['title'] }}</u> </b> </div>
+            <div>{{ row['snippet']}}</div>
+            <div>{{ row['doc'] }}</div>
+            <form class="form-inline" method="GET" action="{{ row['links'] }}">
+                <button class="btn btn-secondary" type="submit">see page</button>
+              </form>
+        </div>
+       
+        {% endfor %}
 
 
         <form class="form-inline" method="GET", action="/">

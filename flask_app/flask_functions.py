@@ -36,7 +36,7 @@ def baseline_ranker(q, x, web=True):
         toks = ' '.join(row['bow']).split(' ') #(' '.join(row['title_en']) +  ' '.join(row['snippet_en']) + ' '.join(row['doc_en'])).split(' ') 
         tok_bucket = ' '.join(ru['bow']).split(' ') #(' '.join(ru['title_en']) +  ' '.join(ru['snippet_en']) + ' '.join(ru['doc_en'])).split(' ') 
         no_overlap = set(toks) - set(tok_bucket)
-        idx_scores.append((row['index'], 'us', row['title_en'][:25],(len(no_overlap) / len(toks)) * 5))
+        idx_scores.append([row['rank'], 'us', row['title_en'][:25],(len(no_overlap) / len(toks)) * 5,0])
         row['snippet'] = format_row_val(row['snippet'])
         row['doc'] = format_row_val(row['doc'])
         row['discordance'] = len(no_overlap) / len(toks) * 5
@@ -50,9 +50,13 @@ def baseline_ranker(q, x, web=True):
         row['doc'] = format_row_val(row['doc'])
         row['discordance'] = len(no_overlap) / len(toks) * 5
         web_results.append(row)
-        idx_scores.append((row['index'], 'ru',row['title_en'][:25], (len(no_overlap) / len(toks)) * 5))
-
-    return sorted(web_results, key=lambda x: x['discordance'], reverse=True)
+        idx_scores.append([row['rank'], 'ru',row['title_en'][:25], (len(no_overlap) / len(toks)) * 5, 0])
+    sorted_idx = sorted(idx_scores, key=lambda x: x[3], reverse=True)
+    for i, x in enumerate(sorted_idx):
+        sorted_idx[i][-1] = i
+    sorted_wr= sorted(web_results, key=lambda x: x['discordance'], reverse=True)
+    wf = pd.DataFrame().from_records(idx_scores, columns=['rank','country','title_en','discordance','new rank'])
+    return sorted_wr, wf
 
 def run_stats(ann_df):
     queries_ann = set(ann_df['for_query'])

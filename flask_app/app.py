@@ -3,21 +3,28 @@ import pandas as pd
 from flask import request
 from flask_functions import *
 import json
+import plotly.express as px
+import plotly
 
 app = Flask(__name__)
 df = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv', ftype='csv')
 
 
 def do_search(query):
-   results =  baseline_ranker(query, df)
+   results, wdf =  baseline_ranker(query, df)
    print(results)
-   return results
+   fig = px.scatter(wdf, x="rank", y="new rank",
+	         size="discordance", color="country",
+                 hover_name="title_en", log_x=True, size_max=60)
+   data = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+   # fig.write_html("temp/plot.html")
+   return results, data
 
 
 @app.route('/results/q=<query>')
 def results(query):
-   results = do_search(query)
-   return render_template('result.html', query=query, results=results)
+   results, plot = do_search(query)
+   return render_template('result.html', query=query, results=results, plot=plot)
 
 
 @app.route('/', methods=['GET','POST'])

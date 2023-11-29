@@ -11,11 +11,17 @@ df = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv',
 
 
 def do_search(query):
+   # do an actual search (grab from scraper, build df)
    results, wdf =  baseline_ranker(query, df)
    print(results)
    fig = px.scatter(wdf, x="rank", y="new rank",
 	         size="discordance", color="country",
-                 hover_name="title_en", log_x=True, size_max=60)
+                 hover_name="title_en", size_max=60)
+   fig.update_layout(
+    autosize=False,
+    width=500,
+    height=800,
+)
    data = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
    # fig.write_html("temp/plot.html")
    return results, data

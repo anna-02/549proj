@@ -9,29 +9,31 @@
     </head>
     <body>
         <h2>Results for {{query}} </h2>
-        <div class="chart" id="graph">
-            <script type="text/javascript">
-                var graph = {{ plot | safe }};
-                Plotly.plot('graph', graph,{});
-            </script>
+        <div class="container">
+            <div class="chart fixed" id="graph">
+                <script type="text/javascript">
+                    var graph = {{ plot | safe }};
+                    Plotly.plot('graph', graph,{});
+                </script>
+                <form class="form-inline" method="GET", action="/">
+                    <button class="btn btn-primary" type="submit">Return to search!</button>
+                  </form>
+            </div>
+            <div class ="flex-item"> 
+                <h3 id="us">US results are blue</h3>
+                <h3 id="ru">RU results are red</h3>
+                {% for row in results %}
+                <div id= "{{ row['country'] }}"class='result' >
+                    <div> <b> <u>{{ row['title'] }}</u> </b> </div>
+                    <div>{{ row['snippet']}}</div>
+                    <div>{{ row['doc'] }}</div>
+                    <form class="form-inline" method="GET" action="{{ row['links'] }}">
+                        <button class="btn btn-secondary" type="submit">see page</button>
+                      </form>
+                </div>
+               
+                {% endfor %} 
+            </div>
         </div>
-        <h3 id="us">US results are blue</h3>
-        <h3 id="ru">RU results are red</h3>
-        {% for row in results %}
-        <div id= "{{ row['country'] }}"class='result' >
-            <div> <b> <u>{{ row['title'] }}</u> </b> </div>
-            <div>{{ row['snippet']}}</div>
-            <div>{{ row['doc'] }}</div>
-            <form class="form-inline" method="GET" action="{{ row['links'] }}">
-                <button class="btn btn-secondary" type="submit">see page</button>
-              </form>
-        </div>
-       
-        {% endfor %}
-
-
-        <form class="form-inline" method="GET", action="/">
-            <button class="btn btn-primary" type="submit">Return to search!</button>
-          </form>
     </body>
 </html>

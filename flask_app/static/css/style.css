@@ -36,3 +36,13 @@ a {
     /* outline: 2px solid #CCC; */
     border: 0.5px solid #c2c2c2;
 }
+
+.container {
+    display:flex;
+}
+.fixed {
+    width: 550px;
+}
+.flex-item {
+    flex-grow: 1;
+}

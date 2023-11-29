@@ -1,0 +1,26 @@
+flask app todos:
+- add drop down for queries we actually have
+- show only english
+
+ranking sys notes:
+- use eng translations in processing
+- (current) inputs: query, dataframe with all data
+- (current) outputs: sorted df rows, only of ranked results
+    - prob should have cluster info, this is malleable anyway
+
+some clustering things
+# doc1: a,b,c, doc2: a, x, r doc3: x, y,z
+# clusters: (a,b,c) (x,y,z) , noise: [r]
+# scores, doc1: 1 - (3/3), doc2: 1 - (2/3), doc3: 1 - (3/3)
+    # where score is 1 - (keywords in any cluster) / (extracted keywords)
+    ###-->>> (keywords in c1 * weight/size of c1) + (...) / (count of toks * weights)
+    # NOTE: handle keywords as list NOT set
+    # or, weight avg, 1 - ([count(k in doc1 s.t. k in c1)]*w_c1)+...+[k in docn s.t. k in cn]*w_cn) / (k counts)(sum of w)
+    # (k0 + ... +  kn) (w_c0 + ... + w_cn) 
+# OTHER POSSIBLE --> include weighting for cluster size? consider keywords per cluster?
+
+# grabs ru doc tokens, us doc tokens
+# per doc, get overlap with corresponding countries doc tokens len(no overlap toks) / len(toks in doc)
+    # AKA finding proportion of tokens in a given doc in country A 
+    # that DO NOT exist in any docs tokens in country B
+

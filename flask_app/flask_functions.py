@@ -5,7 +5,6 @@ from scipy import stats
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 def build_data(fname ='../data/bag_of_words_translated.xlsx',sheet_name='full_col_translated',ftype='xlsx'):
     if ftype == 'csv':
         ann_df = pd.read_csv(fname)

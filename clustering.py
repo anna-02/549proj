@@ -6,12 +6,11 @@ from utils import load_df_with_keys, load_vecs
 from sklearn.cluster import HDBSCAN, DBSCAN
 from sklearn.metrics.pairwise import cosine_similarity
 
+KEEP_KEYS = ["keys", "country", "doc", "result_id", "title_en"]
 
 def get_clusters(queries_df, word_dict, embeddings_np, method="hdbscan", **dbscan_args):
     # get keyword and keyword -> doc mapping (implicitly by order) x
-    keywords_df = queries_df[
-        ["keys", "country", "doc", "result_id", "title_en"]
-    ].explode("keys")
+    keywords_df = queries_df[KEEP_KEYS].explode("keys")
     keywords = keywords_df["keys"].to_list()
 
     # cluster based off of https://arxiv.org/pdf/2008.09470.pdf
@@ -47,6 +46,31 @@ def get_clusters(queries_df, word_dict, embeddings_np, method="hdbscan", **dbsca
 
     return keywords_df
 
+def get_discordances(clusters_df:pd.DataFrame, agg_mode:str='directional') -> pd.DataFrame: 
+    if agg_mode.lower() not in ['directional','absolute']: 
+        raise ValueError(f"agg_mode must be in {'directional','absolute'}, was {agg_mode}")
+    cluster_stats = (
+        clusters_df.assign(
+            cluster_size=1,
+            discordance=clusters_df["country"].apply(
+                lambda x: 1 if x == "us" else -1 if x == "ru" else 0
+            ),
+        )
+        .groupby("cluster_id")
+        .agg({"discordance": "mean", "cluster_size": "sum"})
+    )
+    cluster_df = clusters_df.join(cluster_stats, on='cluster_id')
+    average_func = (lambda x: np.mean(np.abs(x))) if agg_mode == 'absolute' else np.mean
+    aggby = {col:'first' for col in KEEP_KEYS }
+    aggby['discordance'] = average_func
+    aggby['cluster_size'] = 'mean'
+    queries = cluster_df.groupby('result_id').agg(aggby)
+    queries['abs_discordance'] = np.abs(queries['discordance'].to_numpy())
+    return queries.sort_values('abs_discordance'), cluster_df
+
+    
+
+
 
 if __name__ == "__main__":
     test_df = load_df_with_keys("data/keywords_df2.csv")
@@ -70,3 +94,7 @@ if __name__ == "__main__":
     )
     print(cluster_infos)
     cluster_infos.to_csv("data/cluster_stats.csv")
+
+    queries_ranking, cluster_stats = get_discordances(clusters_df) 
+    print(queries_ranking)
+    print(cluster_stats)

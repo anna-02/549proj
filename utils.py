@@ -12,6 +12,8 @@ def load_df_with_keys(df_path:str,keys_col = 'keys')-> pd.DataFrame:
         df = pd.read_json(df_path)
     else: 
         df = pd.read_pickle(df_path)
+    if 'Unnamed' in ' '.join(df.columns):
+        df = df.drop(columns=['Unnamed: 0.1','Unnamed: 0'])
     return df.dropna(subset=['doc_en'])
 
 

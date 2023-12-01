@@ -5,11 +5,18 @@ from transformers import (
     AutoModelForSeq2SeqLM,
     AutoTokenizer,
     AutoModelForTokenClassification,
-    pipeline
+    pipeline,
+    AutoModel,
+
 )
 import torch 
 import numpy 
 from functools import reduce
+import pandas as pd
+import json
+from tqdm import tqdm
+from itertools import batched
+import numpy as np 
 
 
 class KeyphraseGenerationPipeline(Text2TextGenerationPipeline):
@@ -86,45 +93,115 @@ class DocFeatsExtractor():
     def __call__(self,*args, **kwargs):
         return self.get_keys(*args,**kwargs)
 
+class GenVecs():
+    def __init__(self,model_name = "roberta-base",device ='cpu',**kwargs):
+        self.tokenizer = AutoTokenizer.from_pretrained("roberta-base")
+        self.model = AutoModel.from_pretrained("roberta-base",**kwargs)
+        if device != 'cpu': 
+            self.model = self.model.to(device)
+        self.device = device
 
+    def to(self,device):
+        self.device = device
+        self.model = self.model.to(device)
+        return self
+
+    def gen_vecs(self,targs, batchsize=40):
+        rets = []
+        for batch in tqdm(batched(targs,n=batchsize),total=len(targs)//batchsize+1):
+            toks = self.tokenizer(targs,return_tensors ='pt',padding=True, truncation=True)
+            with torch.no_grad():
+                outputs = self.model(**toks)
+                sums = torch.sum(outputs.last_hidden_state * toks['attention_mask'][:,:,None],axis=1)
+
+                nwords = torch.sum(toks['attention_mask'],axis=1)
+
+                rets.append(sums/nwords[:,None])
+        return torch.cat(rets,dim=0)
 
 
 ##### Process text sample (from wikipedia)
 
 
 if __name__ == "__main__":
-    device = 'mps' if torch.backends.mps.is_available() else 'cpu '
-    
-    model_name = "ml6team/keyphrase-generation-keybart-inspec"
-    print('Getting models.')
-    # generator = KeyphraseGenerationPipeline(model=model_name,device=device)
-    # ner_getter = NamedEntityPipeline(device=device)
-    extractor = DocFeatsExtractor()
-    print('Running inference.')
-    # Inference
-    text = ["""
-Keyphrase extraction is a technique in text analysis where you extract the
-important keyphrases from a document. It is named after inventor Key Phrase. Thanks to these keyphrases humans can
-understand the content of a text very quickly and easily without reading it
-completely. Keyphrase extraction was first done primarily by human annotators,
-who read the text in detail and then wrote down the most important keyphrases.
-The disadvantage is that if you work with a lot of documents, this process
-can take a lot of time. """.replace("\n", " "),
-"""
-Here is where Artificial Intelligence comes in. Currently, classical machine
-learning methods, that use statistical and linguistic features, are widely used
-for the extraction process. Now with deep learning, it is possible to capture
-the semantic meaning of a text even better than these classical methods.
-Classical methods look at the frequency, occurrence and order of words
-in the text, whereas these neural approaches can capture long-term
-semantic dependencies and context of words in a text.
-    """.replace("\n", " ")]
+    run_test = False
+    gen_keywords = True  
+    gen_embs = True  
 
-    # keyphrases = generator(text,do_sample=True,temperature=0.1,max_new_tokens=700)
-    # ners = ner_getter.extract_elts(text=text)
+    # df = pd.read_csv('data/keywords_df.csv')
+    # df['keys'].apply(lambda st: ast.literal_eval(st))
 
-    print(extractor.get_keys(text))
+    if run_test: 
+        device = 'mps' if torch.backends.mps.is_available() else 'cpu '
+        model_name = "ml6team/keyphrase-generation-keybart-inspec"
+        print('Getting models.')
+        extractor = DocFeatsExtractor()
+        # generator = KeyphraseGenerationPipeline(model=model_name,device=device)
+        # ner_getter = NamedEntityPipeline(device=device)
+        print('Running inference.')
+        # Inference
+        text = ["""
+            Keyphrase extraction is a technique in text analysis where you extract the
+            important keyphrases from a document. It is named after inventor Key Phrase. Thanks to these keyphrases humans can
+            understand the content of a text very quickly and easily without reading it
+            completely. Keyphrase extraction was first done primarily by human annotators,
+            who read the text in detail and then wrote down the most important keyphrases.
+            The disadvantage is that if you work with a lot of documents, this process
+            can take a lot of time. """.replace("\n            ", " "),
+            """
+            Here is where Artificial Intelligence comes in. Currently, classical machine
+            learning methods, that use statistical and linguistic features, are widely used
+            for the extraction process. Now with deep learning, it is possible to capture
+            the semantic meaning of a text even better than these classical methods.
+            Classical methods look at the frequency, occurrence and order of words
+            in the text, whereas these neural approaches can capture long-term
+            semantic dependencies and context of words in a text.
+                """.replace("\n            ", " ")]
+        print(extractor.get_keys(text))
 
-    # print(keyphrases)
-    # print(ners[0])
-    # print(ners[1])
+    if gen_keywords: 
+        extractor = DocFeatsExtractor()
+        # actually fetch the keyworeds on all documents: 
+        df_docs = pd.read_excel('data/bag_of_words_translated.xlsx',sheet_name='full_col_translated')
+        df_docs[['title_en','snippet_en','doc_en']] = df_docs[['title_en','snippet_en','doc_en']].fillna('').replace('#VALUE!','')
+        full_texts = df_docs.apply(lambda row:row['title_en'] + row['snippet_en'],axis=1).to_list()
+
+        print(f'loaded {len(df_docs)} docs ')
+
+        keywords = extractor.get_keys(full_texts)
+
+        print(df_docs)
+        with open('data/bow_keywords.jsonl','w') as file:
+            for i,text in enumerate(full_texts): 
+                file.write(json.dumps({'docid':i,'keywords':doc['keywords']}))
+        df_docs['keys'] =keywords
+        df_docs.to_csv('data/keywords_df.csv')
+        df_docs.to_pickle('data/keywords_df.pikl')
+
+    if gen_embs: 
+        # load strings: 
+        device = 'cpu'
+        keywords = []
+        with open('data/bow_keywords.jsonl','r') as file:
+            for line in file.readlines(): 
+                # print(line)
+                kwords = json.loads(line)['keywords']
+                for word in kwords: 
+                    if word not in keywords:
+                        keywords.append(word)
+
+
+        keywords_dict = {word:i for i, word in enumerate(keywords)}
+        
+        # keywords = list(keywords)
+        print(keywords[:20])
+        vecgen = GenVecs()
+        vecgen.to(device)
+
+        rets = vecgen.gen_vecs(keywords,batchsize=300)
+        print(rets.shape)
+        np.save('data/keyword_vecs.np',rets.numpy())
+        with open('data/keyword_lines.json','w') as file: 
+            json.dump(keywords_dict,file)
+
+

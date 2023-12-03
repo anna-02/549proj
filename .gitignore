@@ -1,5 +1,6 @@
 pages/*
 google_results_up_to*
+scraping_items_old/*
 API_KEY_GOOG
 GOOG_API_KEY
 *.pyc

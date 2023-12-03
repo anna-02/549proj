@@ -7,14 +7,15 @@ import plotly.express as px
 import plotly
 
 app = Flask(__name__)
-df = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv', ftype='csv')
+df_old = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv', ftype='csv')
+df, np_embs, keyword_lines= build_data_new()
 
 
 def do_search(query):
    # do an actual search (grab from scraper, build df)
-   results, wdf =  baseline_ranker(query, df)
-   print(results)
-   fig = px.scatter(wdf, x="rank", y="new rank",
+   # OLD BASELINE: results, wdf =  baseline_ranker(query, df)
+   results, wdf = query_ranker(query, df,keyword_lines, np_embs)
+   fig = px.scatter(wdf, x="rank", y="discordance",
 	         size="discordance", color="country",
                  hover_name="title_en", size_max=60)
    fig.update_layout(
@@ -23,8 +24,8 @@ def do_search(query):
     height=800,
 )
    data = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-   # fig.write_html("temp/plot.html")
    return results, data
+
 
 
 @app.route('/results/q=<query>')

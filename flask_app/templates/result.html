@@ -8,7 +8,7 @@
         </script>
     </head>
     <body>
-        <h2>Results for {{query}} </h2>
+        <h2>Results for {{query_en}}, {{query}} </h2>
         <div class="container">
             <div class="chart fixed" id="graph">
                 <script type="text/javascript">
@@ -24,9 +24,9 @@
                 <h3 id="ru">RU results are red</h3>
                 {% for row in results %}
                 <div id= "{{ row['country'] }}"class='result' >
-                    <div> <b> <u>{{ row['title'] }}</u> </b> </div>
-                    <div>{{ row['snippet']}}</div>
-                    <div>{{ row['doc'] }}</div>
+                    <div> <b> <u>{{ row['title_en'] }}</u> </b> </div>
+                    <div>{{ row['snippet_en']}}</div>
+                    <div>{{ row['doc_en'] }}</div>
                     <form class="form-inline" method="GET" action="{{ row['links'] }}">
                         <button class="btn btn-secondary" type="submit">see page</button>
                       </form>

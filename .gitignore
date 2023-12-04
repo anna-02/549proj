@@ -1,6 +1,8 @@
 pages/*
 google_results_up_to*
 scraping_items_old/*
+old_data/*
 API_KEY_GOOG
 GOOG_API_KEY
 *.pyc
+data/keyword_vecs.np.npy

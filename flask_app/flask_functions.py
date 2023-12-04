@@ -152,11 +152,12 @@ def query_ranker(query, test_df, keyword_lines, np_embs, eps=0.5,min_samples=3):
     query_df = test_df[test_df['for_query_en'] == query]
     # make clusters, get discordance scores, 
     query_clusters = get_clusters(query_df,keyword_lines, np_embs, method='dbscan', eps=eps, min_samples=min_samples)
-    docs, cluster_df, cluster_stats = get_cluster_scores(query_clusters)
+    docs, cluster_df, cluster_stats = get_cluster_scores(query_clusters,drop_nas=False)
+    cdf = cluster_df.copy()
     df = get_doc_discordances(cluster_df)
     ret_df=  query_df[KEYS_FOR_RES].merge(df).sort_values(by='discordance',ascending=False)
     ret_wr = format_df(ret_df)
-    return ret_wr, ret_df
+    return ret_wr, ret_df, cdf
 
 
 def format_df(df, chars=100):

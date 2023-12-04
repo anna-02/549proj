@@ -14,10 +14,14 @@ df, np_embs, keyword_lines= build_data_new()
 def do_search(query):
    # do an actual search (grab from scraper, build df)
    # OLD BASELINE: results, wdf =  baseline_ranker(query, df)
-   results, wdf = query_ranker(query, df,keyword_lines, np_embs)
-   fig = px.scatter(wdf, x="rank", y="discordance",
-	         size="discordance", color="country",
-                 hover_name="title_en", size_max=60)
+   results, wdf, cluster_df = query_ranker(query, df,keyword_lines, np_embs,eps=0.05,min_samples=3)
+   cluster_df['cluster_prop'] = np.abs(cluster_df['discordance'].to_numpy()) 
+   wdf = wdf.drop(columns=['keys','cluster_id','cluster_prop'])
+   x = cluster_df[['cluster_prop','cluster_id','keys','result_id']]
+   gdf = wdf.set_index('result_id').join(x.set_index('result_id')).reset_index()
+   fig = px.scatter_3d(gdf, x="result_id", y="cluster_prop",z='discordance',
+	         size="discordance", color="cluster_id",
+                 hover_name="keys", opacity=0.8, size_max=30)
    fig.update_layout(
     autosize=False,
     width=500,

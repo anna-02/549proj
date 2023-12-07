@@ -1,0 +1,1 @@
+./geoinspector -input-url-file pages_to_grab.csv -asn-mmdb GeoLite2-ASN.mmdb -input-resolver-file resolvers.txt -output-dns-file dns.json -output-conn-file tcp_output.json -num-query-workers 20 -measurement-separation 10

@@ -86,7 +86,6 @@ def get_discordances(clusters_df:pd.DataFrame, agg_mode:str='directional',drop_n
     
 
 
-
 if __name__ == "__main__":
     do_full_test = False
     test_one_query = True

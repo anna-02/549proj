@@ -9,7 +9,7 @@ import plotly
 app = Flask(__name__)
 df_old = build_data(fname='../data/bag_of_words_translated-full_col_translated.csv', ftype='csv')
 df, np_embs, keyword_lines= build_data_new()
-
+queries = set(df['for_query_en'])
 
 def do_search(query):
    # do an actual search (grab from scraper, build df)
@@ -35,13 +35,15 @@ def do_search(query):
 @app.route('/results/q=<query>')
 def results(query):
    results, plot = do_search(query)
-   return render_template('result.html', query=query, results=results, plot=plot)
+   ru_query = df[df['for_query_en'] == query]['for_query'].iloc[0]
+   return render_template('result.html', query=query,ru_query=ru_query, results=results, plot=plot)
 
 
 @app.route('/', methods=['GET','POST'])
-def index():
+def index(queries=queries):
+
    if request.method == 'GET':
-      return render_template('index.html')
+      return render_template('index.html',queries=queries)
    else:
       query = request.form['query']
       return redirect(url_for('results',query=query))

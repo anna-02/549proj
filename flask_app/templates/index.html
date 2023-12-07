@@ -7,7 +7,15 @@
     <body>
         <h2>EECS 549 Final Project</h2>
         <form class="form-inline" method="POST">
-            <input class="form-control" name="query" type="search" placeholder="Search">
+            <select id = "query" name="query" data-dropdown> 
+                <option value=""> Please choose a cached query to explore</option>
+                {% for q in queries %}
+                <option value="{{q}}">{{q}}</option>
+                {% endfor %} 
+                <option> </option>
+            </select>
+            
+            <!-- <input class="form-control" name="query" type="search" placeholder="Search"> -->
             <button class="btn btn-primary" type="submit">Search!</button>
           </form>
     </body>

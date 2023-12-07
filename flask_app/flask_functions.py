@@ -75,6 +75,10 @@ def get_clusters(queries_df, word_dict, embeddings_np, method="dbscan", **dbscan
     )
     clusters = clusterer.fit_predict(X)
     keywords_df["cluster_id"] = clusters
+    axes = [ X[i].reshape(-1,2).sum(axis=0) for i in range(len(X))]
+    keywords_df['cluster_x'] = [i[0] for i in axes] # X
+    keywords_df['cluster_y'] = [i[1] for i in axes]# a
+
     return keywords_df
 
 def get_cluster_scores(clusters_df:pd.DataFrame, agg_mode:str='directional',bias=False, drop_nas=True) -> pd.DataFrame: 

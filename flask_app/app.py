@@ -19,13 +19,15 @@ def do_search(query):
    wdf = wdf.drop(columns=['keys','cluster_id','cluster_prop'])
    x = cluster_df[['cluster_prop','cluster_id','keys','result_id']]
    gdf = wdf.set_index('result_id').join(x.set_index('result_id')).reset_index()
-   fig = px.scatter_3d(gdf, x="result_id", y="cluster_prop",z='discordance',
-	         size="discordance", color="cluster_id",
+   gdf['discordance_log'] = np.abs(np.log(gdf['discordance']).to_numpy()*10)
+   gdf['cluster_agg'] =  gdf['cluster_y'] # gdf['cluster_x'] +
+   fig = px.scatter(gdf, x="cluster_agg", y="result_id",
+	         size="discordance_log", color="cluster_id",
                  hover_name="keys", opacity=0.8, size_max=30)
    fig.update_layout(
     autosize=False,
     width=500,
-    height=800,
+    height=600,
 )
    data = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
    return results, data

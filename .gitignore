@@ -6,3 +6,4 @@ API_KEY_GOOG
 GOOG_API_KEY
 *.pyc
 data/keyword_vecs.np.npy
+pagerank*

@@ -11,19 +11,20 @@ df_old = build_data(fname='../data/bag_of_words_translated-full_col_translated.c
 df, np_embs, keyword_lines= build_data_new()
 queries = set(df['for_query_en'])
 
-def do_search(query):
+def do_search(query,eps=0.3, min_samples=3,country_bias=False):
    # do an actual search (grab from scraper, build df)
    # OLD BASELINE: results, wdf =  baseline_ranker(query, df)
-   results, wdf, cluster_df = query_ranker(query, df,keyword_lines, np_embs,eps=0.05,min_samples=3)
+   results, wdf, cluster_df = query_ranker(query, df,keyword_lines, np_embs,eps=eps,min_samples=min_samples,bias=country_bias)
+   print('*******',eps, min_samples,country_bias)
    cluster_df['cluster_prop'] = np.abs(cluster_df['discordance'].to_numpy()) 
    wdf = wdf.drop(columns=['keys','cluster_id','cluster_prop'])
    x = cluster_df[['cluster_prop','cluster_id','keys','result_id']]
    gdf = wdf.set_index('result_id').join(x.set_index('result_id')).reset_index()
-   gdf['discordance_log'] = np.abs(np.log(gdf['discordance']).to_numpy()*10)
+   gdf['discordance_exp'] = np.exp(gdf['discordance'].to_numpy()*10 )# np.abs(np.log(gdf['discordance']).to_numpy()*10)
    gdf['cluster_agg'] =  gdf['cluster_y'] # gdf['cluster_x'] +
-   fig = px.scatter(gdf, x="cluster_agg", y="result_id",
-	         size="discordance_log", color="cluster_id",
-                 hover_name="keys", opacity=0.8, size_max=30)
+   fig = px.scatter(gdf, x="discordance",y="cluster_agg",
+	         size="discordance_exp", color="cluster_id",
+                 hover_data=['keys', 'country', 'title_en'] , opacity=0.8, size_max=30)
    fig.update_layout(
     autosize=False,
     width=500,
@@ -34,11 +35,21 @@ def do_search(query):
 
 
 
-@app.route('/results/q=<query>')
+@app.route('/results/q=<query>',methods=['GET','POST'])
 def results(query):
-   results, plot = do_search(query)
+   if request.method == 'POST':
+      eps = float(request.form['eps']) if request.form['eps'] != '' else 0.5
+      min_samples = int(request.form['min_samples']) if request.form['min_samples'] != '' else 3
+      country_bias= request.form['country_bias'] if request.form['country_bias'] != 'None' else False
+      results, plot = do_search(query,eps=eps,min_samples=min_samples,country_bias=country_bias)
+   else: 
+      eps = 0.5
+      min_samples = 3
+      country_bias='None'
+      results, plot = do_search(query,eps=eps,min_samples=min_samples)
+
    ru_query = df[df['for_query_en'] == query]['for_query'].iloc[0]
-   return render_template('result.html', query=query,ru_query=ru_query, results=results, plot=plot)
+   return render_template('result.html', query=query,ru_query=ru_query, results=results, plot=plot, eps=eps,min_samples=min_samples,country_bias=country_bias)
 
 
 @app.route('/', methods=['GET','POST'])

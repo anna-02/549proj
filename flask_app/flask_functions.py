@@ -92,7 +92,7 @@ def get_cluster_scores(clusters_df:pd.DataFrame, agg_mode:str='directional',bias
     else: 
         filt_df = lambda x:x
     us_val, ru_val = 1, -1
-    if bias:
+    if bias and bias != 'None':
         us_val = 1 if bias == 'us' else 0
         ru_val = 1 if bias == 'ru' else 0 
     cluster_stats = (
@@ -147,7 +147,7 @@ def get_doc_discordances(clusters_df:pd.DataFrame) -> pd.DataFrame:
     return docs_df.sort_values(['discordance'],ascending=False)
 
 
-def query_ranker(query, test_df, keyword_lines, np_embs, eps=0.5,min_samples=3):
+def query_ranker(query, test_df, keyword_lines, np_embs, eps=0.5,min_samples=3,bias=False):
     if query is None:
         # choose query at random 
         query = test_df.sample()['for_query_en'].iloc[0]
@@ -156,7 +156,7 @@ def query_ranker(query, test_df, keyword_lines, np_embs, eps=0.5,min_samples=3):
     query_df = test_df[test_df['for_query_en'] == query]
     # make clusters, get discordance scores, 
     query_clusters = get_clusters(query_df,keyword_lines, np_embs, method='dbscan', eps=eps, min_samples=min_samples)
-    docs, cluster_df, cluster_stats = get_cluster_scores(query_clusters,drop_nas=False)
+    docs, cluster_df, cluster_stats = get_cluster_scores(query_clusters,drop_nas=False,bias=bias)
     cdf = cluster_df.copy()
     df = get_doc_discordances(cluster_df)
     ret_df=  query_df[KEYS_FOR_RES].merge(df).sort_values(by='discordance',ascending=False)

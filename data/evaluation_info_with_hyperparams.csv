@@ -1,0 +1,1891 @@
+query,score,value,eps,min_samples,bias
+news,map,0.47715247715247716,0.1,2,False
+news,ndcg,0.48462346767751885,0.1,2,False
+news,map,0.3280768208399787,0.1,2,us
+news,ndcg,0.6390319798234222,0.1,2,us
+news,map,0.43085618085618094,0.1,2,ru
+news,ndcg,0.5146146835597393,0.1,2,ru
+news,map,0.2934315140197493,0.1,5,False
+news,ndcg,0.680329428196723,0.1,5,False
+news,map,0.2610073162704742,0.1,5,us
+news,ndcg,0.680329428196723,0.1,5,us
+news,map,0.2968355231513126,0.1,5,ru
+news,ndcg,0.6422231658418046,0.1,5,ru
+news,map,0.2727272727272727,0.1,8,False
+news,ndcg,0.667022849638378,0.1,8,False
+news,map,0.2727272727272727,0.1,8,us
+news,ndcg,0.667022849638378,0.1,8,us
+news,map,0.2727272727272727,0.1,8,ru
+news,ndcg,0.667022849638378,0.1,8,ru
+news,map,0.48068783068783066,0.5,2,False
+news,ndcg,0.48058357788724015,0.5,2,False
+news,map,0.2863199665831245,0.5,2,us
+news,ndcg,0.692606533101105,0.5,2,us
+news,map,0.42192760942760943,0.5,2,ru
+news,ndcg,0.5102131584329715,0.5,2,ru
+news,map,0.2979270729270729,0.5,5,False
+news,ndcg,0.6788191422132943,0.5,5,False
+news,map,0.26296296296296295,0.5,5,us
+news,ndcg,0.6852437646390577,0.5,5,us
+news,map,0.3312409812409812,0.5,5,ru
+news,ndcg,0.6349424268322601,0.5,5,ru
+news,map,0.29074074074074074,0.5,8,False
+news,ndcg,0.6733816675750219,0.5,8,False
+news,map,0.29074074074074074,0.5,8,us
+news,ndcg,0.6733816675750219,0.5,8,us
+news,map,0.29074074074074074,0.5,8,ru
+news,ndcg,0.6733816675750219,0.5,8,ru
+news,map,0.48068783068783066,0.9,2,False
+news,ndcg,0.48058357788724015,0.9,2,False
+news,map,0.2863199665831245,0.9,2,us
+news,ndcg,0.692606533101105,0.9,2,us
+news,map,0.42192760942760943,0.9,2,ru
+news,ndcg,0.5102131584329715,0.9,2,ru
+news,map,0.2979270729270729,0.9,5,False
+news,ndcg,0.6788191422132943,0.9,5,False
+news,map,0.26296296296296295,0.9,5,us
+news,ndcg,0.6852437646390577,0.9,5,us
+news,map,0.3312409812409812,0.9,5,ru
+news,ndcg,0.6349424268322601,0.9,5,ru
+news,map,0.29074074074074074,0.9,8,False
+news,ndcg,0.6733816675750219,0.9,8,False
+news,map,0.29074074074074074,0.9,8,us
+news,ndcg,0.6733816675750219,0.9,8,us
+news,map,0.29074074074074074,0.9,8,ru
+news,ndcg,0.6733816675750219,0.9,8,ru
+Happy birthday,map,0.5024504816171483,0.1,2,False
+Happy birthday,ndcg,0.8840630474900787,0.1,2,False
+Happy birthday,map,0.5024504816171483,0.1,2,us
+Happy birthday,ndcg,0.8840630474900787,0.1,2,us
+Happy birthday,map,0.5625,0.1,2,ru
+Happy birthday,ndcg,0.7983034243884808,0.1,2,ru
+Happy birthday,map,0.5572871572871573,0.1,5,False
+Happy birthday,ndcg,0.8077694728990161,0.1,5,False
+Happy birthday,map,0.5572871572871573,0.1,5,us
+Happy birthday,ndcg,0.8077694728990161,0.1,5,us
+Happy birthday,map,0.5625,0.1,5,ru
+Happy birthday,ndcg,0.7983034243884808,0.1,5,ru
+Happy birthday,map,0.5625,0.1,8,False
+Happy birthday,ndcg,0.7983034243884808,0.1,8,False
+Happy birthday,map,0.5625,0.1,8,us
+Happy birthday,ndcg,0.7983034243884808,0.1,8,us
+Happy birthday,map,0.5625,0.1,8,ru
+Happy birthday,ndcg,0.7983034243884808,0.1,8,ru
+Happy birthday,map,0.5024504816171483,0.5,2,False
+Happy birthday,ndcg,0.8840630474900787,0.5,2,False
+Happy birthday,map,0.5024504816171483,0.5,2,us
+Happy birthday,ndcg,0.8840630474900787,0.5,2,us
+Happy birthday,map,0.5625,0.5,2,ru
+Happy birthday,ndcg,0.7983034243884808,0.5,2,ru
+Happy birthday,map,0.5572871572871573,0.5,5,False
+Happy birthday,ndcg,0.8077694728990161,0.5,5,False
+Happy birthday,map,0.5572871572871573,0.5,5,us
+Happy birthday,ndcg,0.8077694728990161,0.5,5,us
+Happy birthday,map,0.5625,0.5,5,ru
+Happy birthday,ndcg,0.7983034243884808,0.5,5,ru
+Happy birthday,map,0.5625,0.5,8,False
+Happy birthday,ndcg,0.7983034243884808,0.5,8,False
+Happy birthday,map,0.5625,0.5,8,us
+Happy birthday,ndcg,0.7983034243884808,0.5,8,us
+Happy birthday,map,0.5625,0.5,8,ru
+Happy birthday,ndcg,0.7983034243884808,0.5,8,ru
+Happy birthday,map,0.551833197666531,0.9,2,False
+Happy birthday,ndcg,0.8563601064501449,0.9,2,False
+Happy birthday,map,0.551833197666531,0.9,2,us
+Happy birthday,ndcg,0.8563601064501449,0.9,2,us
+Happy birthday,map,0.5625,0.9,2,ru
+Happy birthday,ndcg,0.7983034243884808,0.9,2,ru
+Happy birthday,map,0.5572871572871573,0.9,5,False
+Happy birthday,ndcg,0.8077694728990161,0.9,5,False
+Happy birthday,map,0.5572871572871573,0.9,5,us
+Happy birthday,ndcg,0.8077694728990161,0.9,5,us
+Happy birthday,map,0.5625,0.9,5,ru
+Happy birthday,ndcg,0.7983034243884808,0.9,5,ru
+Happy birthday,map,0.5625,0.9,8,False
+Happy birthday,ndcg,0.7983034243884808,0.9,8,False
+Happy birthday,map,0.5625,0.9,8,us
+Happy birthday,ndcg,0.7983034243884808,0.9,8,us
+Happy birthday,map,0.5625,0.9,8,ru
+Happy birthday,ndcg,0.7983034243884808,0.9,8,ru
+Cheburashka,map,0.06666666666666667,0.1,2,False
+Cheburashka,ndcg,0.6012400562714807,0.1,2,False
+Cheburashka,map,0.0625,0.1,2,us
+Cheburashka,ndcg,0.5803633447721747,0.1,2,us
+Cheburashka,map,0.05555555555555555,0.1,2,ru
+Cheburashka,ndcg,0.6213159272589205,0.1,2,ru
+Cheburashka,map,0.04,0.1,5,False
+Cheburashka,ndcg,0.5937934748141566,0.1,5,False
+Cheburashka,map,0.04,0.1,5,us
+Cheburashka,ndcg,0.5937934748141566,0.1,5,us
+Cheburashka,map,0.04,0.1,5,ru
+Cheburashka,ndcg,0.5937934748141566,0.1,5,ru
+Cheburashka,map,0.04,0.1,8,False
+Cheburashka,ndcg,0.5937934748141566,0.1,8,False
+Cheburashka,map,0.04,0.1,8,us
+Cheburashka,ndcg,0.5937934748141566,0.1,8,us
+Cheburashka,map,0.04,0.1,8,ru
+Cheburashka,ndcg,0.5937934748141566,0.1,8,ru
+Cheburashka,map,0.06666666666666667,0.5,2,False
+Cheburashka,ndcg,0.6036459309675191,0.5,2,False
+Cheburashka,map,0.0625,0.5,2,us
+Cheburashka,ndcg,0.5803633447721747,0.5,2,us
+Cheburashka,map,0.05555555555555555,0.5,2,ru
+Cheburashka,ndcg,0.6226983068645275,0.5,2,ru
+Cheburashka,map,0.04,0.5,5,False
+Cheburashka,ndcg,0.6052888779821576,0.5,5,False
+Cheburashka,map,0.04,0.5,5,us
+Cheburashka,ndcg,0.5779810986950961,0.5,5,us
+Cheburashka,map,0.04,0.5,5,ru
+Cheburashka,ndcg,0.628352298245281,0.5,5,ru
+Cheburashka,map,0.04,0.5,8,False
+Cheburashka,ndcg,0.5937934748141566,0.5,8,False
+Cheburashka,map,0.04,0.5,8,us
+Cheburashka,ndcg,0.5937934748141566,0.5,8,us
+Cheburashka,map,0.04,0.5,8,ru
+Cheburashka,ndcg,0.5937934748141566,0.5,8,ru
+Cheburashka,map,0.07692307692307693,0.9,2,False
+Cheburashka,ndcg,0.5395089258445964,0.9,2,False
+Cheburashka,map,0.08333333333333333,0.9,2,us
+Cheburashka,ndcg,0.5879721471316292,0.9,2,us
+Cheburashka,map,0.058823529411764705,0.9,2,ru
+Cheburashka,ndcg,0.5739232184275407,0.9,2,ru
+Cheburashka,map,0.04,0.9,5,False
+Cheburashka,ndcg,0.5939692380996696,0.9,5,False
+Cheburashka,map,0.04,0.9,5,us
+Cheburashka,ndcg,0.5939692380996696,0.9,5,us
+Cheburashka,map,0.04,0.9,5,ru
+Cheburashka,ndcg,0.6089472748274287,0.9,5,ru
+Cheburashka,map,0.04,0.9,8,False
+Cheburashka,ndcg,0.5939692380996696,0.9,8,False
+Cheburashka,map,0.04,0.9,8,us
+Cheburashka,ndcg,0.5939692380996696,0.9,8,us
+Cheburashka,map,0.04,0.9,8,ru
+Cheburashka,ndcg,0.6089472748274287,0.9,8,ru
+classmates,map,0.41358363858363856,0.1,2,False
+classmates,ndcg,0.7715533565074272,0.1,2,False
+classmates,map,0.37617058417569926,0.1,2,us
+classmates,ndcg,0.7730547120851725,0.1,2,us
+classmates,map,0.38272144522144524,0.1,2,ru
+classmates,ndcg,0.8138107479644826,0.1,2,ru
+classmates,map,0.47867132867132867,0.1,5,False
+classmates,ndcg,0.7641842598924727,0.1,5,False
+classmates,map,0.4889751324190683,0.1,5,us
+classmates,ndcg,0.7306259091817314,0.1,5,us
+classmates,map,0.49558275058275064,0.1,5,ru
+classmates,ndcg,0.7306259091817314,0.1,5,ru
+classmates,map,0.40073426573426574,0.1,8,False
+classmates,ndcg,0.7751687630330559,0.1,8,False
+classmates,map,0.40073426573426574,0.1,8,us
+classmates,ndcg,0.7751687630330559,0.1,8,us
+classmates,map,0.40073426573426574,0.1,8,ru
+classmates,ndcg,0.7751687630330559,0.1,8,ru
+classmates,map,0.41711081316344467,0.5,2,False
+classmates,ndcg,0.7567562139328046,0.5,2,False
+classmates,map,0.3860695740746891,0.5,2,us
+classmates,ndcg,0.7731951631632611,0.5,2,us
+classmates,map,0.4124014874014874,0.5,2,ru
+classmates,ndcg,0.7896341123937176,0.5,2,ru
+classmates,map,0.4323251748251748,0.5,5,False
+classmates,ndcg,0.7774857546208984,0.5,5,False
+classmates,map,0.4550026188645115,0.5,5,us
+classmates,ndcg,0.7553913861234675,0.5,5,us
+classmates,map,0.45684953934953937,0.5,5,ru
+classmates,ndcg,0.7416104123223147,0.5,5,ru
+classmates,map,0.38753621378621383,0.5,8,False
+classmates,ndcg,0.7882856612538482,0.5,8,False
+classmates,map,0.3817599946156953,0.5,8,us
+classmates,ndcg,0.7711662597735636,0.5,8,us
+classmates,map,0.38024948735475056,0.5,8,ru
+classmates,ndcg,0.7882856612538482,0.5,8,ru
+classmates,map,0.3669194586242641,0.9,2,False
+classmates,ndcg,0.8170396264110829,0.9,2,False
+classmates,map,0.36280854766148884,0.9,2,us
+classmates,ndcg,0.8173190131341659,0.9,2,us
+classmates,map,0.3692070403236105,0.9,2,ru
+classmates,ndcg,0.8170396264110829,0.9,2,ru
+classmates,map,0.3528604202814729,0.9,5,False
+classmates,ndcg,0.848726116361289,0.9,5,False
+classmates,map,0.37309795404189,0.9,5,us
+classmates,ndcg,0.852620162509874,0.9,5,us
+classmates,map,0.3589291848502375,0.9,5,ru
+classmates,ndcg,0.848726116361289,0.9,5,ru
+classmates,map,0.29717832701242314,0.9,8,False
+classmates,ndcg,0.8378135825587463,0.9,8,False
+classmates,map,0.30612320566318413,0.9,8,us
+classmates,ndcg,0.8378135825587463,0.9,8,us
+classmates,map,0.29717832701242314,0.9,8,ru
+classmates,ndcg,0.8378135825587463,0.9,8,ru
+Gdz,map,0.12916666666666665,0.1,2,False
+Gdz,ndcg,0.736081583091751,0.1,2,False
+Gdz,map,0.08204334365325078,0.1,2,us
+Gdz,ndcg,0.5962400243559874,0.1,2,us
+Gdz,map,0.11212121212121212,0.1,2,ru
+Gdz,ndcg,0.7355028995659643,0.1,2,ru
+Gdz,map,0.21666666666666667,0.1,5,False
+Gdz,ndcg,0.6225341491978486,0.1,5,False
+Gdz,map,0.21666666666666667,0.1,5,us
+Gdz,ndcg,0.5646163955605767,0.1,5,us
+Gdz,map,0.22549019607843135,0.1,5,ru
+Gdz,ndcg,0.657197724178148,0.1,5,ru
+Gdz,map,0.09722222222222221,0.1,8,False
+Gdz,ndcg,0.747434337464842,0.1,8,False
+Gdz,map,0.09722222222222221,0.1,8,us
+Gdz,ndcg,0.747434337464842,0.1,8,us
+Gdz,map,0.09722222222222221,0.1,8,ru
+Gdz,ndcg,0.747434337464842,0.1,8,ru
+Gdz,map,0.12916666666666665,0.5,2,False
+Gdz,ndcg,0.736081583091751,0.5,2,False
+Gdz,map,0.08204334365325078,0.5,2,us
+Gdz,ndcg,0.5962400243559874,0.5,2,us
+Gdz,map,0.11212121212121212,0.5,2,ru
+Gdz,ndcg,0.7355028995659643,0.5,2,ru
+Gdz,map,0.21666666666666667,0.5,5,False
+Gdz,ndcg,0.6225341491978486,0.5,5,False
+Gdz,map,0.21666666666666667,0.5,5,us
+Gdz,ndcg,0.5646163955605767,0.5,5,us
+Gdz,map,0.22549019607843135,0.5,5,ru
+Gdz,ndcg,0.657197724178148,0.5,5,ru
+Gdz,map,0.09722222222222221,0.5,8,False
+Gdz,ndcg,0.747434337464842,0.5,8,False
+Gdz,map,0.09722222222222221,0.5,8,us
+Gdz,ndcg,0.747434337464842,0.5,8,us
+Gdz,map,0.09722222222222221,0.5,8,ru
+Gdz,ndcg,0.747434337464842,0.5,8,ru
+Gdz,map,0.17692307692307693,0.9,2,False
+Gdz,ndcg,0.7358830818657127,0.9,2,False
+Gdz,map,0.08204334365325078,0.9,2,us
+Gdz,ndcg,0.6333805355648965,0.9,2,us
+Gdz,map,0.12698412698412698,0.9,2,ru
+Gdz,ndcg,0.715105534766753,0.9,2,ru
+Gdz,map,0.15000000000000002,0.9,5,False
+Gdz,ndcg,0.5939352656887736,0.9,5,False
+Gdz,map,0.1125,0.9,5,us
+Gdz,ndcg,0.6364794061359899,0.9,5,us
+Gdz,map,0.10555555555555556,0.9,5,ru
+Gdz,ndcg,0.7303178727200637,0.9,5,ru
+Gdz,map,0.08125,0.9,8,False
+Gdz,ndcg,0.8521932430104514,0.9,8,False
+Gdz,map,0.08125,0.9,8,us
+Gdz,ndcg,0.8521932430104514,0.9,8,us
+Gdz,map,0.08125,0.9,8,ru
+Gdz,ndcg,0.8521932430104514,0.9,8,ru
+Gypsophyla,map,0.9928916886253842,0.1,2,False
+Gypsophyla,ndcg,0.5318110588677651,0.1,2,False
+Gypsophyla,map,0.9983333333333333,0.1,2,us
+Gypsophyla,ndcg,0.5318110588677651,0.1,2,us
+Gypsophyla,map,0.9133231711650325,0.1,2,ru
+Gypsophyla,ndcg,0.7751355158639127,0.1,2,ru
+Gypsophyla,map,0.935144983611845,0.1,5,False
+Gypsophyla,ndcg,0.6954452308270774,0.1,5,False
+Gypsophyla,map,0.935144983611845,0.1,5,us
+Gypsophyla,ndcg,0.6954452308270774,0.1,5,us
+Gypsophyla,map,0.935144983611845,0.1,5,ru
+Gypsophyla,ndcg,0.6954452308270774,0.1,5,ru
+Gypsophyla,map,0.9380216993761885,0.1,8,False
+Gypsophyla,ndcg,0.6837570756871265,0.1,8,False
+Gypsophyla,map,0.9380216993761885,0.1,8,us
+Gypsophyla,ndcg,0.6837570756871265,0.1,8,us
+Gypsophyla,map,0.9380216993761885,0.1,8,ru
+Gypsophyla,ndcg,0.6837570756871265,0.1,8,ru
+Gypsophyla,map,0.9928916886253841,0.5,2,False
+Gypsophyla,ndcg,0.5318110588677651,0.5,2,False
+Gypsophyla,map,0.9983333333333333,0.5,2,us
+Gypsophyla,ndcg,0.5318110588677651,0.5,2,us
+Gypsophyla,map,0.9133231711650325,0.5,2,ru
+Gypsophyla,ndcg,0.7751355158639127,0.5,2,ru
+Gypsophyla,map,0.9354314083226117,0.5,5,False
+Gypsophyla,ndcg,0.6954452308270774,0.5,5,False
+Gypsophyla,map,0.9354404270816306,0.5,5,us
+Gypsophyla,ndcg,0.6954452308270774,0.5,5,us
+Gypsophyla,map,0.9354404270816306,0.5,5,ru
+Gypsophyla,ndcg,0.6954452308270774,0.5,5,ru
+Gypsophyla,map,0.9382774961393383,0.5,8,False
+Gypsophyla,ndcg,0.6837570756871265,0.5,8,False
+Gypsophyla,map,0.9382774961393383,0.5,8,us
+Gypsophyla,ndcg,0.6837570756871265,0.5,8,us
+Gypsophyla,map,0.9382774961393383,0.5,8,ru
+Gypsophyla,ndcg,0.6837570756871265,0.5,8,ru
+Gypsophyla,map,0.9909075616412572,0.9,2,False
+Gypsophyla,ndcg,0.5318110588677651,0.9,2,False
+Gypsophyla,map,0.9983333333333332,0.9,2,us
+Gypsophyla,ndcg,0.5318110588677651,0.9,2,us
+Gypsophyla,map,0.9037993616412229,0.9,2,ru
+Gypsophyla,ndcg,0.8078982494357302,0.9,2,ru
+Gypsophyla,map,0.9220500314743735,0.9,5,False
+Gypsophyla,ndcg,0.7531340900365112,0.9,5,False
+Gypsophyla,map,0.9219602151639185,0.9,5,us
+Gypsophyla,ndcg,0.7531340900365112,0.9,5,us
+Gypsophyla,map,0.9219138658970316,0.9,5,ru
+Gypsophyla,ndcg,0.7531340900365112,0.9,5,ru
+Gypsophyla,map,0.9218383828052441,0.9,8,False
+Gypsophyla,ndcg,0.7531340900365112,0.9,8,False
+Gypsophyla,map,0.9218383828052441,0.9,8,us
+Gypsophyla,ndcg,0.7531340900365112,0.9,8,us
+Gypsophyla,map,0.9218383828052441,0.9,8,ru
+Gypsophyla,ndcg,0.7531340900365112,0.9,8,ru
+Inna Churikova,map,0.8598891007981917,0.1,2,False
+Inna Churikova,ndcg,0.8595965027558761,0.1,2,False
+Inna Churikova,map,0.8270903339085157,0.1,2,us
+Inna Churikova,ndcg,0.8867971108281407,0.1,2,us
+Inna Churikova,map,0.8254374413465323,0.1,2,ru
+Inna Churikova,ndcg,0.8867971108281407,0.1,2,ru
+Inna Churikova,map,0.7517472426563334,0.1,5,False
+Inna Churikova,ndcg,0.9256201310165,0.1,5,False
+Inna Churikova,map,0.781148397057488,0.1,5,us
+Inna Churikova,ndcg,0.9166838140799988,0.1,5,us
+Inna Churikova,map,0.781148397057488,0.1,5,ru
+Inna Churikova,ndcg,0.9166838140799988,0.1,5,ru
+Inna Churikova,map,0.7962999122090032,0.1,8,False
+Inna Churikova,ndcg,0.8986843420667204,0.1,8,False
+Inna Churikova,map,0.7962999122090032,0.1,8,us
+Inna Churikova,ndcg,0.8986843420667204,0.1,8,us
+Inna Churikova,map,0.7962999122090032,0.1,8,ru
+Inna Churikova,ndcg,0.8986843420667204,0.1,8,ru
+Inna Churikova,map,0.8598891007981917,0.5,2,False
+Inna Churikova,ndcg,0.8595965027558761,0.5,2,False
+Inna Churikova,map,0.8270903339085157,0.5,2,us
+Inna Churikova,ndcg,0.8867971108281407,0.5,2,us
+Inna Churikova,map,0.8254374413465323,0.5,2,ru
+Inna Churikova,ndcg,0.8867971108281407,0.5,2,ru
+Inna Churikova,map,0.7517472426563334,0.5,5,False
+Inna Churikova,ndcg,0.9256201310165,0.5,5,False
+Inna Churikova,map,0.781148397057488,0.5,5,us
+Inna Churikova,ndcg,0.9166838140799988,0.5,5,us
+Inna Churikova,map,0.781148397057488,0.5,5,ru
+Inna Churikova,ndcg,0.9166838140799988,0.5,5,ru
+Inna Churikova,map,0.7962999122090032,0.5,8,False
+Inna Churikova,ndcg,0.8986843420667204,0.5,8,False
+Inna Churikova,map,0.7962999122090032,0.5,8,us
+Inna Churikova,ndcg,0.8986843420667204,0.5,8,us
+Inna Churikova,map,0.7962999122090032,0.5,8,ru
+Inna Churikova,ndcg,0.8986843420667204,0.5,8,ru
+Inna Churikova,map,0.8878111787202696,0.9,2,False
+Inna Churikova,ndcg,0.8496050352076078,0.9,2,False
+Inna Churikova,map,0.817976467976468,0.9,2,us
+Inna Churikova,ndcg,0.8891349368259622,0.9,2,us
+Inna Churikova,map,0.8186192595283505,0.9,2,ru
+Inna Churikova,ndcg,0.8891349368259623,0.9,2,ru
+Inna Churikova,map,0.7517472426563334,0.9,5,False
+Inna Churikova,ndcg,0.9256201310165,0.9,5,False
+Inna Churikova,map,0.7725219225219224,0.9,5,us
+Inna Churikova,ndcg,0.9190216400778203,0.9,5,us
+Inna Churikova,map,0.7517472426563334,0.9,5,ru
+Inna Churikova,ndcg,0.9256201310165,0.9,5,ru
+Inna Churikova,map,0.7965118215118215,0.9,8,False
+Inna Churikova,ndcg,0.8986843420667204,0.9,8,False
+Inna Churikova,map,0.7876734376734377,0.9,8,us
+Inna Churikova,ndcg,0.9019910878543799,0.9,8,us
+Inna Churikova,map,0.7876734376734377,0.9,8,ru
+Inna Churikova,ndcg,0.9019910878543799,0.9,8,ru
+translator,map,0.3501832976470658,0.1,2,False
+translator,ndcg,0.5507350670404473,0.1,2,False
+translator,map,0.3485655189249213,0.1,2,us
+translator,ndcg,0.48064151305348124,0.1,2,us
+translator,map,0.3393287423147493,0.1,2,ru
+translator,ndcg,0.47449360838985805,0.1,2,ru
+translator,map,0.38125,0.1,5,False
+translator,ndcg,0.4589458892003728,0.1,5,False
+translator,map,0.38361344537815123,0.1,5,us
+translator,ndcg,0.49242194229498815,0.1,5,us
+translator,map,0.38361344537815123,0.1,5,ru
+translator,ndcg,0.49242194229498815,0.1,5,ru
+translator,map,0.4,0.1,8,False
+translator,ndcg,0.41121551672353407,0.1,8,False
+translator,map,0.3870617212402202,0.1,8,us
+translator,ndcg,0.49242194229498815,0.1,8,us
+translator,map,0.3870617212402202,0.1,8,ru
+translator,ndcg,0.49242194229498815,0.1,8,ru
+translator,map,0.36410934744268075,0.5,2,False
+translator,ndcg,0.6168232750853009,0.5,2,False
+translator,map,0.3592124893435635,0.5,2,us
+translator,ndcg,0.48642777523116065,0.5,2,us
+translator,map,0.35268445322793146,0.5,2,ru
+translator,ndcg,0.547045758989779,0.5,2,ru
+translator,map,0.36449275362318845,0.5,5,False
+translator,ndcg,0.5384965099951041,0.5,5,False
+translator,map,0.37768432252127904,0.5,5,us
+translator,ndcg,0.5349997794107203,0.5,5,us
+translator,map,0.37597866949983655,0.5,5,ru
+translator,ndcg,0.5349997794107203,0.5,5,ru
+translator,map,0.4,0.5,8,False
+translator,ndcg,0.41121551672353407,0.5,8,False
+translator,map,0.3870617212402202,0.5,8,us
+translator,ndcg,0.49242194229498815,0.5,8,us
+translator,map,0.3870617212402202,0.5,8,ru
+translator,ndcg,0.49242194229498815,0.5,8,ru
+translator,map,0.3746896621896622,0.9,2,False
+translator,ndcg,0.5959163807844365,0.9,2,False
+translator,map,0.371266367912535,0.9,2,us
+translator,ndcg,0.46977887298905036,0.9,2,us
+translator,map,0.35350693321707816,0.9,2,ru
+translator,ndcg,0.5523784990879927,0.9,2,ru
+translator,map,0.39232120051085567,0.9,5,False
+translator,ndcg,0.4956615603364026,0.9,5,False
+translator,map,0.39323858863500805,0.9,5,us
+translator,ndcg,0.508370831114259,0.9,5,us
+translator,map,0.38966848210269267,0.9,5,ru
+translator,ndcg,0.508370831114259,0.9,5,ru
+translator,map,0.41050592128178337,0.9,8,False
+translator,ndcg,0.4205613239217962,0.9,8,False
+translator,map,0.396686864497077,0.9,8,us
+translator,ndcg,0.508370831114259,0.9,8,us
+translator,map,0.3958082528257967,0.9,8,ru
+translator,ndcg,0.508370831114259,0.9,8,ru
+atomic heart,map,0.45846560846560847,0.1,2,False
+atomic heart,ndcg,0.9166736161914647,0.1,2,False
+atomic heart,map,0.6888888888888888,0.1,2,us
+atomic heart,ndcg,0.8061939392964769,0.1,2,us
+atomic heart,map,0.5499999999999999,0.1,2,ru
+atomic heart,ndcg,0.8764359881983829,0.1,2,ru
+atomic heart,map,0.5499999999999999,0.1,5,False
+atomic heart,ndcg,0.8683590555834543,0.1,5,False
+atomic heart,map,0.6611111111111111,0.1,5,us
+atomic heart,ndcg,0.8147469343767056,0.1,5,us
+atomic heart,map,0.5777777777777777,0.1,5,ru
+atomic heart,ndcg,0.8375145286726157,0.1,5,ru
+atomic heart,map,0.5499999999999999,0.1,8,False
+atomic heart,ndcg,0.8683590555834543,0.1,8,False
+atomic heart,map,0.6611111111111111,0.1,8,us
+atomic heart,ndcg,0.8147469343767056,0.1,8,us
+atomic heart,map,0.5777777777777777,0.1,8,ru
+atomic heart,ndcg,0.8375145286726157,0.1,8,ru
+atomic heart,map,0.45846560846560847,0.5,2,False
+atomic heart,ndcg,0.9166736161914647,0.5,2,False
+atomic heart,map,0.6888888888888888,0.5,2,us
+atomic heart,ndcg,0.8061939392964769,0.5,2,us
+atomic heart,map,0.5499999999999999,0.5,2,ru
+atomic heart,ndcg,0.8764359881983829,0.5,2,ru
+atomic heart,map,0.5499999999999999,0.5,5,False
+atomic heart,ndcg,0.8683590555834543,0.5,5,False
+atomic heart,map,0.6611111111111111,0.5,5,us
+atomic heart,ndcg,0.8147469343767056,0.5,5,us
+atomic heart,map,0.5777777777777777,0.5,5,ru
+atomic heart,ndcg,0.8375145286726157,0.5,5,ru
+atomic heart,map,0.5499999999999999,0.5,8,False
+atomic heart,ndcg,0.8683590555834543,0.5,8,False
+atomic heart,map,0.6611111111111111,0.5,8,us
+atomic heart,ndcg,0.8147469343767056,0.5,8,us
+atomic heart,map,0.5777777777777777,0.5,8,ru
+atomic heart,ndcg,0.8375145286726157,0.5,8,ru
+atomic heart,map,0.4981481481481481,0.9,2,False
+atomic heart,ndcg,0.8905904033242845,0.9,2,False
+atomic heart,map,0.6888888888888888,0.9,2,us
+atomic heart,ndcg,0.8061939392964769,0.9,2,us
+atomic heart,map,0.5499999999999999,0.9,2,ru
+atomic heart,ndcg,0.8764359881983829,0.9,2,ru
+atomic heart,map,0.5499999999999999,0.9,5,False
+atomic heart,ndcg,0.8683590555834543,0.9,5,False
+atomic heart,map,0.6611111111111111,0.9,5,us
+atomic heart,ndcg,0.8147469343767056,0.9,5,us
+atomic heart,map,0.5777777777777777,0.9,5,ru
+atomic heart,ndcg,0.8375145286726157,0.9,5,ru
+atomic heart,map,0.5499999999999999,0.9,8,False
+atomic heart,ndcg,0.8683590555834543,0.9,8,False
+atomic heart,map,0.6611111111111111,0.9,8,us
+atomic heart,ndcg,0.8147469343767056,0.9,8,us
+atomic heart,map,0.5777777777777777,0.9,8,ru
+atomic heart,ndcg,0.8375145286726157,0.9,8,ru
+translation,map,0.26461038961038963,0.1,2,False
+translation,ndcg,0.7196698304465416,0.1,2,False
+translation,map,0.26461038961038963,0.1,2,us
+translation,ndcg,0.7196698304465416,0.1,2,us
+translation,map,0.26666666666666666,0.1,2,ru
+translation,ndcg,0.6280620271054537,0.1,2,ru
+translation,map,0.26666666666666666,0.1,5,False
+translation,ndcg,0.6280620271054537,0.1,5,False
+translation,map,0.26666666666666666,0.1,5,us
+translation,ndcg,0.6280620271054537,0.1,5,us
+translation,map,0.26666666666666666,0.1,5,ru
+translation,ndcg,0.6280620271054537,0.1,5,ru
+translation,map,0.26666666666666666,0.1,8,False
+translation,ndcg,0.6280620271054537,0.1,8,False
+translation,map,0.26666666666666666,0.1,8,us
+translation,ndcg,0.6280620271054537,0.1,8,us
+translation,map,0.26666666666666666,0.1,8,ru
+translation,ndcg,0.6280620271054537,0.1,8,ru
+translation,map,0.2947802197802198,0.5,2,False
+translation,ndcg,0.6736696934600163,0.5,2,False
+translation,map,0.2947802197802198,0.5,2,us
+translation,ndcg,0.6736696934600163,0.5,2,us
+translation,map,0.26666666666666666,0.5,2,ru
+translation,ndcg,0.6280620271054537,0.5,2,ru
+translation,map,0.3019230769230769,0.5,5,False
+translation,ndcg,0.6280620271054537,0.5,5,False
+translation,map,0.3019230769230769,0.5,5,us
+translation,ndcg,0.6280620271054537,0.5,5,us
+translation,map,0.26666666666666666,0.5,5,ru
+translation,ndcg,0.6280620271054537,0.5,5,ru
+translation,map,0.26666666666666666,0.5,8,False
+translation,ndcg,0.6280620271054537,0.5,8,False
+translation,map,0.26666666666666666,0.5,8,us
+translation,ndcg,0.6280620271054537,0.5,8,us
+translation,map,0.26666666666666666,0.5,8,ru
+translation,ndcg,0.6280620271054537,0.5,8,ru
+translation,map,0.2947802197802198,0.9,2,False
+translation,ndcg,0.6987042444163166,0.9,2,False
+translation,map,0.2947802197802198,0.9,2,us
+translation,ndcg,0.6987042444163166,0.9,2,us
+translation,map,0.26666666666666666,0.9,2,ru
+translation,ndcg,0.6280620271054537,0.9,2,ru
+translation,map,0.3581730769230769,0.9,5,False
+translation,ndcg,0.5949976436510684,0.9,5,False
+translation,map,0.3581730769230769,0.9,5,us
+translation,ndcg,0.5949976436510684,0.9,5,us
+translation,map,0.26666666666666666,0.9,5,ru
+translation,ndcg,0.6280620271054537,0.9,5,ru
+translation,map,0.3581730769230769,0.9,8,False
+translation,ndcg,0.5949976436510684,0.9,8,False
+translation,map,0.3581730769230769,0.9,8,us
+translation,ndcg,0.5949976436510684,0.9,8,us
+translation,map,0.26666666666666666,0.9,8,ru
+translation,ndcg,0.6280620271054537,0.9,8,ru
+Google,map,-0.0,0.1,2,False
+Google,ndcg,1.0,0.1,2,False
+Google,map,-0.0,0.1,2,us
+Google,ndcg,1.0,0.1,2,us
+Google,map,-0.0,0.1,2,ru
+Google,ndcg,1.0,0.1,2,ru
+Google,map,-0.0,0.1,5,False
+Google,ndcg,1.0,0.1,5,False
+Google,map,-0.0,0.1,5,us
+Google,ndcg,1.0,0.1,5,us
+Google,map,-0.0,0.1,5,ru
+Google,ndcg,1.0,0.1,5,ru
+Google,map,-0.0,0.1,8,False
+Google,ndcg,1.0,0.1,8,False
+Google,map,-0.0,0.1,8,us
+Google,ndcg,1.0,0.1,8,us
+Google,map,-0.0,0.1,8,ru
+Google,ndcg,1.0,0.1,8,ru
+Google,map,-0.0,0.5,2,False
+Google,ndcg,1.0,0.5,2,False
+Google,map,-0.0,0.5,2,us
+Google,ndcg,1.0,0.5,2,us
+Google,map,-0.0,0.5,2,ru
+Google,ndcg,1.0,0.5,2,ru
+Google,map,-0.0,0.5,5,False
+Google,ndcg,1.0,0.5,5,False
+Google,map,-0.0,0.5,5,us
+Google,ndcg,1.0,0.5,5,us
+Google,map,-0.0,0.5,5,ru
+Google,ndcg,1.0,0.5,5,ru
+Google,map,-0.0,0.5,8,False
+Google,ndcg,1.0,0.5,8,False
+Google,map,-0.0,0.5,8,us
+Google,ndcg,1.0,0.5,8,us
+Google,map,-0.0,0.5,8,ru
+Google,ndcg,1.0,0.5,8,ru
+Google,map,-0.0,0.9,2,False
+Google,ndcg,1.0,0.9,2,False
+Google,map,-0.0,0.9,2,us
+Google,ndcg,1.0,0.9,2,us
+Google,map,-0.0,0.9,2,ru
+Google,ndcg,1.0,0.9,2,ru
+Google,map,-0.0,0.9,5,False
+Google,ndcg,1.0,0.9,5,False
+Google,map,-0.0,0.9,5,us
+Google,ndcg,1.0,0.9,5,us
+Google,map,-0.0,0.9,5,ru
+Google,ndcg,1.0,0.9,5,ru
+Google,map,-0.0,0.9,8,False
+Google,ndcg,1.0,0.9,8,False
+Google,map,-0.0,0.9,8,us
+Google,ndcg,1.0,0.9,8,us
+Google,map,-0.0,0.9,8,ru
+Google,ndcg,1.0,0.9,8,ru
+chatgpt,map,0.47905242905242906,0.1,2,False
+chatgpt,ndcg,0.2698163015979522,0.1,2,False
+chatgpt,map,0.16373770411882937,0.1,2,us
+chatgpt,ndcg,0.5772492034691451,0.1,2,us
+chatgpt,map,0.2376984126984127,0.1,2,ru
+chatgpt,ndcg,0.28210485192636187,0.1,2,ru
+chatgpt,map,0.30808080808080807,0.1,5,False
+chatgpt,ndcg,0.35579448052444856,0.1,5,False
+chatgpt,map,0.22099673202614378,0.1,5,us
+chatgpt,ndcg,0.505087949694139,0.1,5,us
+chatgpt,map,0.2657407407407407,0.1,5,ru
+chatgpt,ndcg,0.3898466556825227,0.1,5,ru
+chatgpt,map,0.16708023159636065,0.1,8,False
+chatgpt,ndcg,0.43105302794989814,0.1,8,False
+chatgpt,map,0.16708023159636065,0.1,8,us
+chatgpt,ndcg,0.43105302794989814,0.1,8,us
+chatgpt,map,0.16708023159636065,0.1,8,ru
+chatgpt,ndcg,0.43105302794989814,0.1,8,ru
+chatgpt,map,0.47905242905242906,0.5,2,False
+chatgpt,ndcg,0.2698163015979522,0.5,2,False
+chatgpt,map,0.16373770411882937,0.5,2,us
+chatgpt,ndcg,0.5772492034691451,0.5,2,us
+chatgpt,map,0.2414021164021164,0.5,2,ru
+chatgpt,ndcg,0.28210485192636187,0.5,2,ru
+chatgpt,map,0.31662781662781664,0.5,5,False
+chatgpt,ndcg,0.35579448052444856,0.5,5,False
+chatgpt,map,0.22099673202614378,0.5,5,us
+chatgpt,ndcg,0.505087949694139,0.5,5,us
+chatgpt,map,0.27748015873015874,0.5,5,ru
+chatgpt,ndcg,0.3898466556825227,0.5,5,ru
+chatgpt,map,0.16708023159636065,0.5,8,False
+chatgpt,ndcg,0.43105302794989814,0.5,8,False
+chatgpt,map,0.16708023159636065,0.5,8,us
+chatgpt,ndcg,0.43105302794989814,0.5,8,us
+chatgpt,map,0.16708023159636065,0.5,8,ru
+chatgpt,ndcg,0.43105302794989814,0.5,8,ru
+chatgpt,map,0.4543560606060606,0.9,2,False
+chatgpt,ndcg,0.282188899045973,0.9,2,False
+chatgpt,map,0.16918566746152952,0.9,2,us
+chatgpt,ndcg,0.5111794585499896,0.9,2,us
+chatgpt,map,0.3107142857142857,0.9,2,ru
+chatgpt,ndcg,0.29002878958745026,0.9,2,ru
+chatgpt,map,0.4099326599326599,0.9,5,False
+chatgpt,ndcg,0.3085703937974793,0.9,5,False
+chatgpt,map,0.28751456876456877,0.9,5,us
+chatgpt,ndcg,0.4917472294916758,0.9,5,us
+chatgpt,map,0.37069221628045157,0.9,5,ru
+chatgpt,ndcg,0.35231370360503994,0.9,5,ru
+chatgpt,map,0.23125996810207336,0.9,8,False
+chatgpt,ndcg,0.48494891495774134,0.9,8,False
+chatgpt,map,0.21031746031746032,0.9,8,us
+chatgpt,ndcg,0.4830569978897975,0.9,8,us
+chatgpt,map,0.22730739893211288,0.9,8,ru
+chatgpt,ndcg,0.48494891495774134,0.9,8,ru
+VC,map,0.11839153439153438,0.1,2,False
+VC,ndcg,0.745200291652696,0.1,2,False
+VC,map,0.1388627450980392,0.1,2,us
+VC,ndcg,0.6555365788421108,0.1,2,us
+VC,map,0.09920875420875422,0.1,2,ru
+VC,ndcg,0.5986492799052091,0.1,2,ru
+VC,map,0.20722222222222222,0.1,5,False
+VC,ndcg,0.5305782133705783,0.1,5,False
+VC,map,0.2004972804972805,0.1,5,us
+VC,ndcg,0.5460279083432416,0.1,5,us
+VC,map,0.22822871572871575,0.1,5,ru
+VC,ndcg,0.5460279083432416,0.1,5,ru
+VC,map,0.25163947163947165,0.1,8,False
+VC,ndcg,0.5099647514761133,0.1,8,False
+VC,map,0.2457967032967033,0.1,8,us
+VC,ndcg,0.5099647514761133,0.1,8,us
+VC,map,0.24596638655462186,0.1,8,ru
+VC,ndcg,0.5099647514761133,0.1,8,ru
+VC,map,0.11839153439153438,0.5,2,False
+VC,ndcg,0.7306818440388213,0.5,2,False
+VC,map,0.13938095238095238,0.5,2,us
+VC,ndcg,0.6254613117946869,0.5,2,us
+VC,map,0.09920875420875422,0.5,2,ru
+VC,ndcg,0.6079788837330826,0.5,2,ru
+VC,map,0.19275557775557778,0.5,5,False
+VC,ndcg,0.48082781729530183,0.5,5,False
+VC,map,0.20889402994666154,0.5,5,us
+VC,ndcg,0.45669401829661593,0.5,5,us
+VC,map,0.2277777777777778,0.5,5,ru
+VC,ndcg,0.45669401829661593,0.5,5,ru
+VC,map,0.24285714285714285,0.5,8,False
+VC,ndcg,0.4354539859301666,0.5,8,False
+VC,map,0.25037037037037035,0.5,8,us
+VC,ndcg,0.4122794434711717,0.5,8,us
+VC,map,0.24285714285714285,0.5,8,ru
+VC,ndcg,0.4354539859301666,0.5,8,ru
+VC,map,0.11987023113338902,0.9,2,False
+VC,ndcg,0.6888790496875888,0.9,2,False
+VC,map,0.14679925303454716,0.9,2,us
+VC,ndcg,0.6619454526741453,0.9,2,us
+VC,map,0.1006998556998557,0.9,2,ru
+VC,ndcg,0.6450597821767231,0.9,2,ru
+VC,map,0.20829573934837092,0.9,5,False
+VC,ndcg,0.5797008796412733,0.9,5,False
+VC,map,0.1958836098541981,0.9,5,us
+VC,ndcg,0.5342887953605222,0.9,5,us
+VC,map,0.2411904761904762,0.9,5,ru
+VC,ndcg,0.49380779340671466,0.9,5,ru
+VC,map,0.19982142857142857,0.9,8,False
+VC,ndcg,0.5431328113132996,0.9,8,False
+VC,map,0.21247474747474748,0.9,8,us
+VC,ndcg,0.47968304262617545,0.9,8,us
+VC,map,0.20038700430004777,0.9,8,ru
+VC,ndcg,0.49468522455530645,0.9,8,ru
+public services,map,0.19444444444444442,0.1,2,False
+public services,ndcg,0.591335395206917,0.1,2,False
+public services,map,0.15476190476190477,0.1,2,us
+public services,ndcg,0.6826495944541762,0.1,2,us
+public services,map,0.18333333333333335,0.1,2,ru
+public services,ndcg,0.6423589448169889,0.1,2,ru
+public services,map,0.16233766233766234,0.1,5,False
+public services,ndcg,0.6332937830193568,0.1,5,False
+public services,map,0.16233766233766234,0.1,5,us
+public services,ndcg,0.6332937830193568,0.1,5,us
+public services,map,0.16233766233766234,0.1,5,ru
+public services,ndcg,0.6332937830193568,0.1,5,ru
+public services,map,0.16233766233766234,0.1,8,False
+public services,ndcg,0.6332937830193568,0.1,8,False
+public services,map,0.16233766233766234,0.1,8,us
+public services,ndcg,0.6332937830193568,0.1,8,us
+public services,map,0.16233766233766234,0.1,8,ru
+public services,ndcg,0.6332937830193568,0.1,8,ru
+public services,map,0.18253968253968253,0.5,2,False
+public services,ndcg,0.627067345895999,0.5,2,False
+public services,map,0.16025641025641024,0.5,2,us
+public services,ndcg,0.6826495944541762,0.5,2,us
+public services,map,0.18333333333333335,0.5,2,ru
+public services,ndcg,0.6423589448169889,0.5,2,ru
+public services,map,0.16233766233766234,0.5,5,False
+public services,ndcg,0.6332937830193568,0.5,5,False
+public services,map,0.16233766233766234,0.5,5,us
+public services,ndcg,0.6332937830193568,0.5,5,us
+public services,map,0.16233766233766234,0.5,5,ru
+public services,ndcg,0.6332937830193568,0.5,5,ru
+public services,map,0.16233766233766234,0.5,8,False
+public services,ndcg,0.6332937830193568,0.5,8,False
+public services,map,0.16233766233766234,0.5,8,us
+public services,ndcg,0.6332937830193568,0.5,8,us
+public services,map,0.16233766233766234,0.5,8,ru
+public services,ndcg,0.6332937830193568,0.5,8,ru
+public services,map,0.18253968253968253,0.9,2,False
+public services,ndcg,0.5987950865128002,0.9,2,False
+public services,map,0.17692307692307693,0.9,2,us
+public services,ndcg,0.6233435371500308,0.9,2,us
+public services,map,0.18333333333333335,0.9,2,ru
+public services,ndcg,0.6130453706836568,0.9,2,ru
+public services,map,0.16233766233766234,0.9,5,False
+public services,ndcg,0.6332937830193568,0.9,5,False
+public services,map,0.16233766233766234,0.9,5,us
+public services,ndcg,0.6332937830193568,0.9,5,us
+public services,map,0.16233766233766234,0.9,5,ru
+public services,ndcg,0.6332937830193568,0.9,5,ru
+public services,map,0.16233766233766234,0.9,8,False
+public services,ndcg,0.6332937830193568,0.9,8,False
+public services,map,0.16233766233766234,0.9,8,us
+public services,ndcg,0.6332937830193568,0.9,8,us
+public services,map,0.16233766233766234,0.9,8,ru
+public services,ndcg,0.6332937830193568,0.9,8,ru
+telegram,map,0.31355311355311355,0.1,2,False
+telegram,ndcg,0.826552746476819,0.1,2,False
+telegram,map,0.31355311355311355,0.1,2,us
+telegram,ndcg,0.826552746476819,0.1,2,us
+telegram,map,0.3125,0.1,2,ru
+telegram,ndcg,0.5525960482176887,0.1,2,ru
+telegram,map,0.2777777777777778,0.1,5,False
+telegram,ndcg,0.8000371066852694,0.1,5,False
+telegram,map,0.2777777777777778,0.1,5,us
+telegram,ndcg,0.8000371066852694,0.1,5,us
+telegram,map,0.3125,0.1,5,ru
+telegram,ndcg,0.5525960482176887,0.1,5,ru
+telegram,map,0.2777777777777778,0.1,8,False
+telegram,ndcg,0.8000371066852694,0.1,8,False
+telegram,map,0.2777777777777778,0.1,8,us
+telegram,ndcg,0.8000371066852694,0.1,8,us
+telegram,map,0.3125,0.1,8,ru
+telegram,ndcg,0.5525960482176887,0.1,8,ru
+telegram,map,0.2863095238095238,0.5,2,False
+telegram,ndcg,0.8455612175528167,0.5,2,False
+telegram,map,0.2863095238095238,0.5,2,us
+telegram,ndcg,0.8455612175528167,0.5,2,us
+telegram,map,0.3125,0.5,2,ru
+telegram,ndcg,0.5525960482176887,0.5,2,ru
+telegram,map,0.2619172494172494,0.5,5,False
+telegram,ndcg,0.8802604994922391,0.5,5,False
+telegram,map,0.2619172494172494,0.5,5,us
+telegram,ndcg,0.8802604994922391,0.5,5,us
+telegram,map,0.3125,0.5,5,ru
+telegram,ndcg,0.5525960482176887,0.5,5,ru
+telegram,map,0.2619172494172494,0.5,8,False
+telegram,ndcg,0.8802604994922391,0.5,8,False
+telegram,map,0.2619172494172494,0.5,8,us
+telegram,ndcg,0.8802604994922391,0.5,8,us
+telegram,map,0.3125,0.5,8,ru
+telegram,ndcg,0.5525960482176887,0.5,8,ru
+telegram,map,0.2596428571428572,0.9,2,False
+telegram,ndcg,0.8395580457296856,0.9,2,False
+telegram,map,0.2596428571428572,0.9,2,us
+telegram,ndcg,0.8395580457296856,0.9,2,us
+telegram,map,0.3125,0.9,2,ru
+telegram,ndcg,0.5525960482176887,0.9,2,ru
+telegram,map,0.24737179487179486,0.9,5,False
+telegram,ndcg,0.8935392461606341,0.9,5,False
+telegram,map,0.24737179487179486,0.9,5,us
+telegram,ndcg,0.8935392461606341,0.9,5,us
+telegram,map,0.3125,0.9,5,ru
+telegram,ndcg,0.5525960482176887,0.9,5,ru
+telegram,map,0.24737179487179486,0.9,8,False
+telegram,ndcg,0.8935392461606341,0.9,8,False
+telegram,map,0.24737179487179486,0.9,8,us
+telegram,ndcg,0.8935392461606341,0.9,8,us
+telegram,map,0.3125,0.9,8,ru
+telegram,ndcg,0.5525960482176887,0.9,8,ru
+Yandex,map,0.73403720462544,0.1,2,False
+Yandex,ndcg,0.3322347890228022,0.1,2,False
+Yandex,map,0.3333333333333333,0.1,2,us
+Yandex,ndcg,0.5057983961304438,0.1,2,us
+Yandex,map,0.73403720462544,0.1,2,ru
+Yandex,ndcg,0.3322347890228022,0.1,2,ru
+Yandex,map,0.8964646464646464,0.1,5,False
+Yandex,ndcg,0.26753797071439916,0.1,5,False
+Yandex,map,0.3333333333333333,0.1,5,us
+Yandex,ndcg,0.5057983961304438,0.1,5,us
+Yandex,map,0.8964646464646464,0.1,5,ru
+Yandex,ndcg,0.26753797071439916,0.1,5,ru
+Yandex,map,0.8964646464646464,0.1,8,False
+Yandex,ndcg,0.26753797071439916,0.1,8,False
+Yandex,map,0.3333333333333333,0.1,8,us
+Yandex,ndcg,0.5057983961304438,0.1,8,us
+Yandex,map,0.8964646464646464,0.1,8,ru
+Yandex,ndcg,0.26753797071439916,0.1,8,ru
+Yandex,map,0.7294584500466853,0.5,2,False
+Yandex,ndcg,0.3585633011759167,0.5,2,False
+Yandex,map,0.3333333333333333,0.5,2,us
+Yandex,ndcg,0.5057983961304438,0.5,2,us
+Yandex,map,0.7294584500466853,0.5,2,ru
+Yandex,ndcg,0.3585633011759167,0.5,2,ru
+Yandex,map,0.8964646464646464,0.5,5,False
+Yandex,ndcg,0.26753797071439916,0.5,5,False
+Yandex,map,0.3333333333333333,0.5,5,us
+Yandex,ndcg,0.5057983961304438,0.5,5,us
+Yandex,map,0.8964646464646464,0.5,5,ru
+Yandex,ndcg,0.26753797071439916,0.5,5,ru
+Yandex,map,0.8964646464646464,0.5,8,False
+Yandex,ndcg,0.26753797071439916,0.5,8,False
+Yandex,map,0.3333333333333333,0.5,8,us
+Yandex,ndcg,0.5057983961304438,0.5,8,us
+Yandex,map,0.8964646464646464,0.5,8,ru
+Yandex,ndcg,0.26753797071439916,0.5,8,ru
+Yandex,map,0.5687499999999999,0.9,2,False
+Yandex,ndcg,0.4505187119518086,0.9,2,False
+Yandex,map,0.3333333333333333,0.9,2,us
+Yandex,ndcg,0.5057983961304438,0.9,2,us
+Yandex,map,0.5687499999999999,0.9,2,ru
+Yandex,ndcg,0.4505187119518086,0.9,2,ru
+Yandex,map,0.6977124183006536,0.9,5,False
+Yandex,ndcg,0.3339557297995157,0.9,5,False
+Yandex,map,0.3333333333333333,0.9,5,us
+Yandex,ndcg,0.5057983961304438,0.9,5,us
+Yandex,map,0.6977124183006536,0.9,5,ru
+Yandex,ndcg,0.3339557297995157,0.9,5,ru
+Yandex,map,0.6977124183006536,0.9,8,False
+Yandex,ndcg,0.3339557297995157,0.9,8,False
+Yandex,map,0.3333333333333333,0.9,8,us
+Yandex,ndcg,0.5057983961304438,0.9,8,us
+Yandex,map,0.6977124183006536,0.9,8,ru
+Yandex,ndcg,0.3339557297995157,0.9,8,ru
+diary RU,map,0.32135253091135446,0.1,2,False
+diary RU,ndcg,0.729500721241001,0.1,2,False
+diary RU,map,0.3218800119728913,0.1,2,us
+diary RU,ndcg,0.8162961475164261,0.1,2,us
+diary RU,map,0.2615977487354299,0.1,2,ru
+diary RU,ndcg,0.8417617658757478,0.1,2,ru
+diary RU,map,0.30038243547531474,0.1,5,False
+diary RU,ndcg,0.7199848893795388,0.1,5,False
+diary RU,map,0.2816126574950104,0.1,5,us
+diary RU,ndcg,0.7491155088090139,0.1,5,us
+diary RU,map,0.2740969524302857,0.1,5,ru
+diary RU,ndcg,0.7736743727037753,0.1,5,ru
+diary RU,map,0.2760386462140848,0.1,8,False
+diary RU,ndcg,0.770108435769208,0.1,8,False
+diary RU,map,0.2816126574950104,0.1,8,us
+diary RU,ndcg,0.7491155088090139,0.1,8,us
+diary RU,map,0.28824084412319706,0.1,8,ru
+diary RU,ndcg,0.7257075132626016,0.1,8,ru
+diary RU,map,0.3179744275332511,0.5,2,False
+diary RU,ndcg,0.7050175767598325,0.5,2,False
+diary RU,map,0.3759204160132953,0.5,2,us
+diary RU,ndcg,0.7518620896537057,0.5,2,us
+diary RU,map,0.2588173773276075,0.5,2,ru
+diary RU,ndcg,0.8460374314532447,0.5,2,ru
+diary RU,map,0.3479937022042285,0.5,5,False
+diary RU,ndcg,0.6680468437352474,0.5,5,False
+diary RU,map,0.3248919236962715,0.5,5,us
+diary RU,ndcg,0.6729645254117995,0.5,5,us
+diary RU,map,0.3133877115341646,0.5,5,ru
+diary RU,ndcg,0.7287624158778604,0.5,5,ru
+diary RU,map,0.35573083778966136,0.5,8,False
+diary RU,ndcg,0.6171191646482528,0.5,8,False
+diary RU,map,0.3248919236962715,0.5,8,us
+diary RU,ndcg,0.6729645254117995,0.5,8,us
+diary RU,map,0.3361577712506505,0.5,8,ru
+diary RU,ndcg,0.6673199536263186,0.5,8,ru
+diary RU,map,0.32792312081527764,0.9,2,False
+diary RU,ndcg,0.7242846905986206,0.9,2,False
+diary RU,map,0.3434417835346628,0.9,2,us
+diary RU,ndcg,0.809552237262707,0.9,2,us
+diary RU,map,0.2682850701286337,0.9,2,ru
+diary RU,ndcg,0.8419653050497197,0.9,2,ru
+diary RU,map,0.3747840977989719,0.9,5,False
+diary RU,ndcg,0.7125717545018189,0.9,5,False
+diary RU,map,0.35691537410207486,0.9,5,us
+diary RU,ndcg,0.724632569552243,0.9,5,us
+diary RU,map,0.3566356775128705,0.9,5,ru
+diary RU,ndcg,0.724632569552243,0.9,5,ru
+diary RU,map,0.3747840977989719,0.9,8,False
+diary RU,ndcg,0.7125717545018189,0.9,8,False
+diary RU,map,0.35691537410207486,0.9,8,us
+diary RU,ndcg,0.724632569552243,0.9,8,us
+diary RU,map,0.3566356775128705,0.9,8,ru
+diary RU,ndcg,0.724632569552243,0.9,8,ru
+weather,map,0.41088518343210034,0.1,2,False
+weather,ndcg,0.40491987795039436,0.1,2,False
+weather,map,0.7099688142400533,0.1,2,us
+weather,ndcg,0.12082735417862321,0.1,2,us
+weather,map,0.37308228558581313,0.1,2,ru
+weather,ndcg,0.5717739344149942,0.1,2,ru
+weather,map,0.3634015896035808,0.1,5,False
+weather,ndcg,0.5983033427376829,0.1,5,False
+weather,map,0.47895978785785137,0.1,5,us
+weather,ndcg,0.5134994880166104,0.1,5,us
+weather,map,0.38692648536786545,0.1,5,ru
+weather,ndcg,0.5983033427376829,0.1,5,ru
+weather,map,0.3741898127642841,0.1,8,False
+weather,ndcg,0.5134994880166104,0.1,8,False
+weather,map,0.457427120288748,0.1,8,us
+weather,ndcg,0.5134994880166104,0.1,8,us
+weather,map,0.39085263839136153,0.1,8,ru
+weather,ndcg,0.5134994880166104,0.1,8,ru
+weather,map,0.40381407264506763,0.5,2,False
+weather,ndcg,0.40290043843038525,0.5,2,False
+weather,map,0.7342465171895323,0.5,2,us
+weather,ndcg,0.09792865906735351,0.5,2,us
+weather,map,0.36220384133100403,0.5,2,ru
+weather,ndcg,0.5528032115476582,0.5,2,ru
+weather,map,0.36509823207353087,0.5,5,False
+weather,ndcg,0.5164831427661383,0.5,5,False
+weather,map,0.52209274498652,0.5,5,us
+weather,ndcg,0.2591180224297283,0.5,5,us
+weather,map,0.39162920902266946,0.5,5,ru
+weather,ndcg,0.5491523849335131,0.5,5,ru
+weather,map,0.373481556755247,0.5,8,False
+weather,ndcg,0.41418503951109237,0.5,8,False
+weather,map,0.49448612915579987,0.5,8,us
+weather,ndcg,0.3055457290619976,0.5,8,us
+weather,map,0.40214079100837874,0.5,8,ru
+weather,ndcg,0.37853214259418955,0.5,8,ru
+weather,map,0.4007218705254006,0.9,2,False
+weather,ndcg,0.39991678368085737,0.9,2,False
+weather,map,0.7373129977602927,0.9,2,us
+weather,ndcg,0.09792865906735351,0.9,2,us
+weather,map,0.3693673640806153,0.9,2,ru
+weather,ndcg,0.5557763985185578,0.9,2,ru
+weather,map,0.36635036112864644,0.9,5,False
+weather,ndcg,0.5198358002492319,0.9,5,False
+weather,map,0.5685283055462214,0.9,5,us
+weather,ndcg,0.23942080931271753,0.9,5,us
+weather,map,0.4110610166168432,0.9,5,ru
+weather,ndcg,0.493006097971872,0.9,5,ru
+weather,map,0.38524452950287447,0.9,8,False
+weather,ndcg,0.3877834312672269,0.9,8,False
+weather,map,0.5339612600059583,0.9,8,us
+weather,ndcg,0.2591180224297283,0.9,8,us
+weather,map,0.42302627533524656,0.9,8,ru
+weather,ndcg,0.40350685279541126,0.9,8,ru
+Avito,map,0.4226064032585771,0.1,2,False
+Avito,ndcg,0.5122000633278094,0.1,2,False
+Avito,map,0.32762864715264095,0.1,2,us
+Avito,ndcg,0.7153926057174443,0.1,2,us
+Avito,map,0.3466766241005371,0.1,2,ru
+Avito,ndcg,0.5512879189040628,0.1,2,ru
+Avito,map,0.4136647900266826,0.1,5,False
+Avito,ndcg,0.5362008654148355,0.1,5,False
+Avito,map,0.4153265514678558,0.1,5,us
+Avito,ndcg,0.48367206994634,0.1,5,us
+Avito,map,0.4175608939227865,0.1,5,ru
+Avito,ndcg,0.48367206994634,0.1,5,ru
+Avito,map,0.4136647900266826,0.1,8,False
+Avito,ndcg,0.5362008654148355,0.1,8,False
+Avito,map,0.4153265514678558,0.1,8,us
+Avito,ndcg,0.48367206994634,0.1,8,us
+Avito,map,0.4175608939227865,0.1,8,ru
+Avito,ndcg,0.48367206994634,0.1,8,ru
+Avito,map,0.43024743182065833,0.5,2,False
+Avito,ndcg,0.5001033388997241,0.5,2,False
+Avito,map,0.33864405331510594,0.5,2,us
+Avito,ndcg,0.7037736984198745,0.5,2,us
+Avito,map,0.3541171002910133,0.5,2,ru
+Avito,ndcg,0.5495004010102474,0.5,2,ru
+Avito,map,0.41530204166393425,0.5,5,False
+Avito,ndcg,0.48367206994634,0.5,5,False
+Avito,map,0.38304349245525715,0.5,5,us
+Avito,ndcg,0.6041513746358268,0.5,5,us
+Avito,map,0.40372599622599625,0.5,5,ru
+Avito,ndcg,0.6041513746358268,0.5,5,ru
+Avito,map,0.4136647900266826,0.5,8,False
+Avito,ndcg,0.5362008654148355,0.5,8,False
+Avito,map,0.4153265514678558,0.5,8,us
+Avito,ndcg,0.48367206994634,0.5,8,us
+Avito,map,0.4175608939227865,0.5,8,ru
+Avito,ndcg,0.48367206994634,0.5,8,ru
+Avito,map,0.40448591263808653,0.9,2,False
+Avito,ndcg,0.5246839322760322,0.9,2,False
+Avito,map,0.3058584290106029,0.9,2,us
+Avito,ndcg,0.7764943457814095,0.9,2,us
+Avito,map,0.3494615384615385,0.9,2,ru
+Avito,ndcg,0.5542976187808967,0.9,2,ru
+Avito,map,0.36992618492618495,0.9,5,False
+Avito,ndcg,0.5879157910511164,0.9,5,False
+Avito,map,0.33634532134532136,0.9,5,us
+Avito,ndcg,0.6215430648721115,0.9,5,us
+Avito,map,0.3468058733790999,0.9,5,ru
+Avito,ndcg,0.6383567017826092,0.9,5,ru
+Avito,map,0.3811509324009324,0.9,8,False
+Avito,ndcg,0.5858279063141135,0.9,8,False
+Avito,map,0.3591705417344803,0.9,8,us
+Avito,ndcg,0.5879157910511164,0.9,8,us
+Avito,map,0.3726807995925643,0.9,8,ru
+Avito,ndcg,0.5353869955826208,0.9,8,ru
+Network city,map,0.7596153846153846,0.1,2,False
+Network city,ndcg,0.7674666264335327,0.1,2,False
+Network city,map,0.7596153846153846,0.1,2,us
+Network city,ndcg,0.7674666264335327,0.1,2,us
+Network city,map,0.7596153846153846,0.1,2,ru
+Network city,ndcg,0.7674666264335327,0.1,2,ru
+Network city,map,0.7596153846153846,0.1,5,False
+Network city,ndcg,0.7674666264335327,0.1,5,False
+Network city,map,0.7596153846153846,0.1,5,us
+Network city,ndcg,0.7674666264335327,0.1,5,us
+Network city,map,0.7596153846153846,0.1,5,ru
+Network city,ndcg,0.7674666264335327,0.1,5,ru
+Network city,map,0.7596153846153846,0.1,8,False
+Network city,ndcg,0.7674666264335327,0.1,8,False
+Network city,map,0.7596153846153846,0.1,8,us
+Network city,ndcg,0.7674666264335327,0.1,8,us
+Network city,map,0.7596153846153846,0.1,8,ru
+Network city,ndcg,0.7674666264335327,0.1,8,ru
+Network city,map,0.7596153846153846,0.5,2,False
+Network city,ndcg,0.7674666264335327,0.5,2,False
+Network city,map,0.7596153846153846,0.5,2,us
+Network city,ndcg,0.7674666264335327,0.5,2,us
+Network city,map,0.7596153846153846,0.5,2,ru
+Network city,ndcg,0.7674666264335327,0.5,2,ru
+Network city,map,0.7596153846153846,0.5,5,False
+Network city,ndcg,0.7674666264335327,0.5,5,False
+Network city,map,0.7596153846153846,0.5,5,us
+Network city,ndcg,0.7674666264335327,0.5,5,us
+Network city,map,0.7596153846153846,0.5,5,ru
+Network city,ndcg,0.7674666264335327,0.5,5,ru
+Network city,map,0.7596153846153846,0.5,8,False
+Network city,ndcg,0.7674666264335327,0.5,8,False
+Network city,map,0.7596153846153846,0.5,8,us
+Network city,ndcg,0.7674666264335327,0.5,8,us
+Network city,map,0.7596153846153846,0.5,8,ru
+Network city,ndcg,0.7674666264335327,0.5,8,ru
+Network city,map,0.7596153846153846,0.9,2,False
+Network city,ndcg,0.7674666264335327,0.9,2,False
+Network city,map,0.7596153846153846,0.9,2,us
+Network city,ndcg,0.7674666264335327,0.9,2,us
+Network city,map,0.7596153846153846,0.9,2,ru
+Network city,ndcg,0.7674666264335327,0.9,2,ru
+Network city,map,0.7596153846153846,0.9,5,False
+Network city,ndcg,0.7674666264335327,0.9,5,False
+Network city,map,0.7596153846153846,0.9,5,us
+Network city,ndcg,0.7674666264335327,0.9,5,us
+Network city,map,0.7596153846153846,0.9,5,ru
+Network city,ndcg,0.7674666264335327,0.9,5,ru
+Network city,map,0.7596153846153846,0.9,8,False
+Network city,ndcg,0.7674666264335327,0.9,8,False
+Network city,map,0.7596153846153846,0.9,8,us
+Network city,ndcg,0.7674666264335327,0.9,8,us
+Network city,map,0.7596153846153846,0.9,8,ru
+Network city,ndcg,0.7674666264335327,0.9,8,ru
+DNS,map,0.39805194805194805,0.1,2,False
+DNS,ndcg,0.7780422985119342,0.1,2,False
+DNS,map,0.189572192513369,0.1,2,us
+DNS,ndcg,0.9134757899557536,0.1,2,us
+DNS,map,0.13752587991718426,0.1,2,ru
+DNS,ndcg,0.9333333333333331,0.1,2,ru
+DNS,map,0.19325657894736842,0.1,5,False
+DNS,ndcg,0.8749999999999999,0.1,5,False
+DNS,map,0.15416666666666665,0.1,5,us
+DNS,ndcg,0.8999999999999999,0.1,5,us
+DNS,map,0.19325657894736842,0.1,5,ru
+DNS,ndcg,0.8749999999999999,0.1,5,ru
+DNS,map,0.16,0.1,8,False
+DNS,ndcg,0.8933333333333333,0.1,8,False
+DNS,map,0.16,0.1,8,us
+DNS,ndcg,0.8933333333333333,0.1,8,us
+DNS,map,0.16,0.1,8,ru
+DNS,ndcg,0.8933333333333333,0.1,8,ru
+DNS,map,0.3904761904761905,0.5,2,False
+DNS,ndcg,0.778042298511934,0.5,2,False
+DNS,map,0.2730861244019139,0.5,2,us
+DNS,ndcg,0.880348596609455,0.5,2,us
+DNS,map,0.14377587991718427,0.5,2,ru
+DNS,ndcg,0.9274895843044451,0.5,2,ru
+DNS,map,0.21953781512605042,0.5,5,False
+DNS,ndcg,0.8571428571428571,0.5,5,False
+DNS,map,0.20419254658385091,0.5,5,us
+DNS,ndcg,0.8571428571428571,0.5,5,us
+DNS,map,0.21626984126984125,0.5,5,ru
+DNS,ndcg,0.8571428571428571,0.5,5,ru
+DNS,map,0.2222222222222222,0.5,8,False
+DNS,ndcg,0.8518518518518516,0.5,8,False
+DNS,map,0.2222222222222222,0.5,8,us
+DNS,ndcg,0.8518518518518516,0.5,8,us
+DNS,map,0.2222222222222222,0.5,8,ru
+DNS,ndcg,0.8518518518518516,0.5,8,ru
+DNS,map,0.4714285714285714,0.9,2,False
+DNS,ndcg,0.7553084356755108,0.9,2,False
+DNS,map,0.27499999999999997,0.9,2,us
+DNS,ndcg,0.8379347378101538,0.9,2,us
+DNS,map,0.16724941724941725,0.9,2,ru
+DNS,ndcg,0.9191855728543863,0.9,2,ru
+DNS,map,0.3019230769230769,0.9,5,False
+DNS,ndcg,0.7999999999999998,0.9,5,False
+DNS,map,0.29166666666666663,0.9,5,us
+DNS,ndcg,0.7999999999999998,0.9,5,us
+DNS,map,0.2964285714285714,0.9,5,ru
+DNS,ndcg,0.7999999999999998,0.9,5,ru
+DNS,map,0.3076923076923077,0.9,8,False
+DNS,ndcg,0.7948717948717947,0.9,8,False
+DNS,map,0.3076923076923077,0.9,8,us
+DNS,ndcg,0.7948717948717947,0.9,8,us
+DNS,map,0.3076923076923077,0.9,8,ru
+DNS,ndcg,0.7948717948717947,0.9,8,ru
+vildberry,map,0.13247863247863248,0.1,2,False
+vildberry,ndcg,0.8551189460757976,0.1,2,False
+vildberry,map,0.09808612440191387,0.1,2,us
+vildberry,ndcg,0.8875948713872956,0.1,2,us
+vildberry,map,0.11309523809523808,0.1,2,ru
+vildberry,ndcg,0.9250502787242879,0.1,2,ru
+vildberry,map,0.10101010101010101,0.1,5,False
+vildberry,ndcg,0.8000968338263541,0.1,5,False
+vildberry,map,0.10101010101010101,0.1,5,us
+vildberry,ndcg,0.8000968338263541,0.1,5,us
+vildberry,map,0.10101010101010101,0.1,5,ru
+vildberry,ndcg,0.8000968338263541,0.1,5,ru
+vildberry,map,0.10101010101010101,0.1,8,False
+vildberry,ndcg,0.8000968338263541,0.1,8,False
+vildberry,map,0.10101010101010101,0.1,8,us
+vildberry,ndcg,0.8000968338263541,0.1,8,us
+vildberry,map,0.10101010101010101,0.1,8,ru
+vildberry,ndcg,0.8000968338263541,0.1,8,ru
+vildberry,map,0.13942307692307693,0.5,2,False
+vildberry,ndcg,0.859246421034744,0.5,2,False
+vildberry,map,0.09808612440191387,0.5,2,us
+vildberry,ndcg,0.896900040725747,0.5,2,us
+vildberry,map,0.11309523809523808,0.5,2,ru
+vildberry,ndcg,0.9248071415056365,0.5,2,ru
+vildberry,map,0.10101010101010101,0.5,5,False
+vildberry,ndcg,0.8000968338263541,0.5,5,False
+vildberry,map,0.10101010101010101,0.5,5,us
+vildberry,ndcg,0.8000968338263541,0.5,5,us
+vildberry,map,0.10101010101010101,0.5,5,ru
+vildberry,ndcg,0.8000968338263541,0.5,5,ru
+vildberry,map,0.10101010101010101,0.5,8,False
+vildberry,ndcg,0.8000968338263541,0.5,8,False
+vildberry,map,0.10101010101010101,0.5,8,us
+vildberry,ndcg,0.8000968338263541,0.5,8,us
+vildberry,map,0.10101010101010101,0.5,8,ru
+vildberry,ndcg,0.8000968338263541,0.5,8,ru
+vildberry,map,0.13247863247863248,0.9,2,False
+vildberry,ndcg,0.8604221087494603,0.9,2,False
+vildberry,map,0.09808612440191387,0.9,2,us
+vildberry,ndcg,0.8956664931497607,0.9,2,us
+vildberry,map,0.10989010989010989,0.9,2,ru
+vildberry,ndcg,0.925667052512281,0.9,2,ru
+vildberry,map,0.09215686274509804,0.9,5,False
+vildberry,ndcg,0.7808999469067175,0.9,5,False
+vildberry,map,0.09109311740890688,0.9,5,us
+vildberry,ndcg,0.7426874861037605,0.9,5,us
+vildberry,map,0.08680555555555555,0.9,5,ru
+vildberry,ndcg,0.7802831731187242,0.9,5,ru
+vildberry,map,0.10101010101010101,0.9,8,False
+vildberry,ndcg,0.8000968338263541,0.9,8,False
+vildberry,map,0.10101010101010101,0.9,8,us
+vildberry,ndcg,0.8000968338263541,0.9,8,us
+vildberry,map,0.10101010101010101,0.9,8,ru
+vildberry,ndcg,0.8000968338263541,0.9,8,ru
+electronic diary,map,0.44659692159692166,0.1,2,False
+electronic diary,ndcg,0.8866214322636328,0.1,2,False
+electronic diary,map,0.4207362082362082,0.1,2,us
+electronic diary,ndcg,0.8773260212688143,0.1,2,us
+electronic diary,map,0.4705387205387206,0.1,2,ru
+electronic diary,ndcg,0.8445149542611028,0.1,2,ru
+electronic diary,map,0.4068473193473193,0.1,5,False
+electronic diary,ndcg,0.8505840609473455,0.1,5,False
+electronic diary,map,0.4068473193473193,0.1,5,us
+electronic diary,ndcg,0.8505840609473455,0.1,5,us
+electronic diary,map,0.46153846153846156,0.1,5,ru
+electronic diary,ndcg,0.7993844914457163,0.1,5,ru
+electronic diary,map,0.46153846153846156,0.1,8,False
+electronic diary,ndcg,0.7993844914457163,0.1,8,False
+electronic diary,map,0.46153846153846156,0.1,8,us
+electronic diary,ndcg,0.7993844914457163,0.1,8,us
+electronic diary,map,0.46153846153846156,0.1,8,ru
+electronic diary,ndcg,0.7993844914457163,0.1,8,ru
+electronic diary,map,0.4771524771524772,0.5,2,False
+electronic diary,ndcg,0.8709432289277865,0.5,2,False
+electronic diary,map,0.4207362082362082,0.5,2,us
+electronic diary,ndcg,0.8773260212688143,0.5,2,us
+electronic diary,map,0.4797979797979798,0.5,2,ru
+electronic diary,ndcg,0.8429427941129989,0.5,2,ru
+electronic diary,map,0.4068473193473193,0.5,5,False
+electronic diary,ndcg,0.8505840609473455,0.5,5,False
+electronic diary,map,0.4068473193473193,0.5,5,us
+electronic diary,ndcg,0.8505840609473455,0.5,5,us
+electronic diary,map,0.46153846153846156,0.5,5,ru
+electronic diary,ndcg,0.7993844914457163,0.5,5,ru
+electronic diary,map,0.46153846153846156,0.5,8,False
+electronic diary,ndcg,0.7993844914457163,0.5,8,False
+electronic diary,map,0.46153846153846156,0.5,8,us
+electronic diary,ndcg,0.7993844914457163,0.5,8,us
+electronic diary,map,0.46153846153846156,0.5,8,ru
+electronic diary,ndcg,0.7993844914457163,0.5,8,ru
+electronic diary,map,0.4771524771524772,0.9,2,False
+electronic diary,ndcg,0.8709432289277865,0.9,2,False
+electronic diary,map,0.4207362082362082,0.9,2,us
+electronic diary,ndcg,0.8773260212688143,0.9,2,us
+electronic diary,map,0.4797979797979798,0.9,2,ru
+electronic diary,ndcg,0.8429427941129989,0.9,2,ru
+electronic diary,map,0.4068473193473193,0.9,5,False
+electronic diary,ndcg,0.8505840609473455,0.9,5,False
+electronic diary,map,0.4068473193473193,0.9,5,us
+electronic diary,ndcg,0.8505840609473455,0.9,5,us
+electronic diary,map,0.46153846153846156,0.9,5,ru
+electronic diary,ndcg,0.7993844914457163,0.9,5,ru
+electronic diary,map,0.46153846153846156,0.9,8,False
+electronic diary,ndcg,0.7993844914457163,0.9,8,False
+electronic diary,map,0.46153846153846156,0.9,8,us
+electronic diary,ndcg,0.7993844914457163,0.9,8,us
+electronic diary,map,0.46153846153846156,0.9,8,ru
+electronic diary,ndcg,0.7993844914457163,0.9,8,ru
+Production calendar 2023,map,0.7635081585081585,0.1,2,False
+Production calendar 2023,ndcg,0.32229444300560545,0.1,2,False
+Production calendar 2023,map,0.6141666666666666,0.1,2,us
+Production calendar 2023,ndcg,0.4535055385750937,0.1,2,us
+Production calendar 2023,map,0.6637157287157287,0.1,2,ru
+Production calendar 2023,ndcg,0.3888191170795134,0.1,2,ru
+Production calendar 2023,map,0.6981060606060605,0.1,5,False
+Production calendar 2023,ndcg,0.366520113893445,0.1,5,False
+Production calendar 2023,map,0.6981060606060605,0.1,5,us
+Production calendar 2023,ndcg,0.366520113893445,0.1,5,us
+Production calendar 2023,map,0.6981060606060605,0.1,5,ru
+Production calendar 2023,ndcg,0.366520113893445,0.1,5,ru
+Production calendar 2023,map,0.6981060606060605,0.1,8,False
+Production calendar 2023,ndcg,0.366520113893445,0.1,8,False
+Production calendar 2023,map,0.6981060606060605,0.1,8,us
+Production calendar 2023,ndcg,0.366520113893445,0.1,8,us
+Production calendar 2023,map,0.6981060606060605,0.1,8,ru
+Production calendar 2023,ndcg,0.366520113893445,0.1,8,ru
+Production calendar 2023,map,0.7635081585081585,0.5,2,False
+Production calendar 2023,ndcg,0.32229444300560545,0.5,2,False
+Production calendar 2023,map,0.6141666666666666,0.5,2,us
+Production calendar 2023,ndcg,0.4535055385750937,0.5,2,us
+Production calendar 2023,map,0.6637157287157287,0.5,2,ru
+Production calendar 2023,ndcg,0.3888191170795134,0.5,2,ru
+Production calendar 2023,map,0.6981060606060605,0.5,5,False
+Production calendar 2023,ndcg,0.366520113893445,0.5,5,False
+Production calendar 2023,map,0.6981060606060605,0.5,5,us
+Production calendar 2023,ndcg,0.366520113893445,0.5,5,us
+Production calendar 2023,map,0.6981060606060605,0.5,5,ru
+Production calendar 2023,ndcg,0.366520113893445,0.5,5,ru
+Production calendar 2023,map,0.6981060606060605,0.5,8,False
+Production calendar 2023,ndcg,0.366520113893445,0.5,8,False
+Production calendar 2023,map,0.6981060606060605,0.5,8,us
+Production calendar 2023,ndcg,0.366520113893445,0.5,8,us
+Production calendar 2023,map,0.6981060606060605,0.5,8,ru
+Production calendar 2023,ndcg,0.366520113893445,0.5,8,ru
+Production calendar 2023,map,0.7635081585081585,0.9,2,False
+Production calendar 2023,ndcg,0.32229444300560545,0.9,2,False
+Production calendar 2023,map,0.6141666666666666,0.9,2,us
+Production calendar 2023,ndcg,0.4535055385750937,0.9,2,us
+Production calendar 2023,map,0.6637157287157287,0.9,2,ru
+Production calendar 2023,ndcg,0.3888191170795134,0.9,2,ru
+Production calendar 2023,map,0.6981060606060605,0.9,5,False
+Production calendar 2023,ndcg,0.366520113893445,0.9,5,False
+Production calendar 2023,map,0.6981060606060605,0.9,5,us
+Production calendar 2023,ndcg,0.366520113893445,0.9,5,us
+Production calendar 2023,map,0.6981060606060605,0.9,5,ru
+Production calendar 2023,ndcg,0.366520113893445,0.9,5,ru
+Production calendar 2023,map,0.6981060606060605,0.9,8,False
+Production calendar 2023,ndcg,0.366520113893445,0.9,8,False
+Production calendar 2023,map,0.6981060606060605,0.9,8,us
+Production calendar 2023,ndcg,0.366520113893445,0.9,8,us
+Production calendar 2023,map,0.6981060606060605,0.9,8,ru
+Production calendar 2023,ndcg,0.366520113893445,0.9,8,ru
+Easter 2023,map,0.8093614718614719,0.1,2,False
+Easter 2023,ndcg,0.6938229738190604,0.1,2,False
+Easter 2023,map,0.8093614718614719,0.1,2,us
+Easter 2023,ndcg,0.6938229738190604,0.1,2,us
+Easter 2023,map,0.5333333333333333,0.1,2,ru
+Easter 2023,ndcg,0.8145008851731745,0.1,2,ru
+Easter 2023,map,0.609077380952381,0.1,5,False
+Easter 2023,ndcg,0.75493602102444,0.1,5,False
+Easter 2023,map,0.609077380952381,0.1,5,us
+Easter 2023,ndcg,0.75493602102444,0.1,5,us
+Easter 2023,map,0.5333333333333333,0.1,5,ru
+Easter 2023,ndcg,0.8145008851731745,0.1,5,ru
+Easter 2023,map,0.7040674603174603,0.1,8,False
+Easter 2023,ndcg,0.7177180594795552,0.1,8,False
+Easter 2023,map,0.7040674603174603,0.1,8,us
+Easter 2023,ndcg,0.7177180594795552,0.1,8,us
+Easter 2023,map,0.5333333333333333,0.1,8,ru
+Easter 2023,ndcg,0.8145008851731745,0.1,8,ru
+Easter 2023,map,0.7964015151515151,0.5,2,False
+Easter 2023,ndcg,0.6988027472870256,0.5,2,False
+Easter 2023,map,0.7964015151515151,0.5,2,us
+Easter 2023,ndcg,0.6988027472870256,0.5,2,us
+Easter 2023,map,0.5333333333333333,0.5,2,ru
+Easter 2023,ndcg,0.8145008851731745,0.5,2,ru
+Easter 2023,map,0.609077380952381,0.5,5,False
+Easter 2023,ndcg,0.75493602102444,0.5,5,False
+Easter 2023,map,0.609077380952381,0.5,5,us
+Easter 2023,ndcg,0.75493602102444,0.5,5,us
+Easter 2023,map,0.5333333333333333,0.5,5,ru
+Easter 2023,ndcg,0.8145008851731745,0.5,5,ru
+Easter 2023,map,0.7040674603174603,0.5,8,False
+Easter 2023,ndcg,0.7177180594795552,0.5,8,False
+Easter 2023,map,0.7040674603174603,0.5,8,us
+Easter 2023,ndcg,0.7177180594795552,0.5,8,us
+Easter 2023,map,0.5333333333333333,0.5,8,ru
+Easter 2023,ndcg,0.8145008851731745,0.5,8,ru
+Easter 2023,map,0.7964015151515151,0.9,2,False
+Easter 2023,ndcg,0.6988027472870256,0.9,2,False
+Easter 2023,map,0.7964015151515151,0.9,2,us
+Easter 2023,ndcg,0.6988027472870256,0.9,2,us
+Easter 2023,map,0.5333333333333333,0.9,2,ru
+Easter 2023,ndcg,0.8145008851731745,0.9,2,ru
+Easter 2023,map,0.609077380952381,0.9,5,False
+Easter 2023,ndcg,0.75493602102444,0.9,5,False
+Easter 2023,map,0.609077380952381,0.9,5,us
+Easter 2023,ndcg,0.75493602102444,0.9,5,us
+Easter 2023,map,0.5333333333333333,0.9,5,ru
+Easter 2023,ndcg,0.8145008851731745,0.9,5,ru
+Easter 2023,map,0.7040674603174603,0.9,8,False
+Easter 2023,ndcg,0.7177180594795552,0.9,8,False
+Easter 2023,map,0.7040674603174603,0.9,8,us
+Easter 2023,ndcg,0.7177180594795552,0.9,8,us
+Easter 2023,map,0.5333333333333333,0.9,8,ru
+Easter 2023,ndcg,0.8145008851731745,0.9,8,ru
+Avatar 2,map,0.11309523809523808,0.1,2,False
+Avatar 2,ndcg,0.7574536010738406,0.1,2,False
+Avatar 2,map,0.12698412698412698,0.1,2,us
+Avatar 2,ndcg,0.7768098803763795,0.1,2,us
+Avatar 2,map,0.12222222222222222,0.1,2,ru
+Avatar 2,ndcg,0.6799194612518055,0.1,2,ru
+Avatar 2,map,0.1388888888888889,0.1,5,False
+Avatar 2,ndcg,0.7280641536034151,0.1,5,False
+Avatar 2,map,0.12878787878787878,0.1,5,us
+Avatar 2,ndcg,0.7499374551262623,0.1,5,us
+Avatar 2,map,0.10512820512820513,0.1,5,ru
+Avatar 2,ndcg,0.7437340394061199,0.1,5,ru
+Avatar 2,map,0.13333333333333333,0.1,8,False
+Avatar 2,ndcg,0.6299313867929935,0.1,8,False
+Avatar 2,map,0.13333333333333333,0.1,8,us
+Avatar 2,ndcg,0.6299313867929935,0.1,8,us
+Avatar 2,map,0.13333333333333333,0.1,8,ru
+Avatar 2,ndcg,0.6299313867929935,0.1,8,ru
+Avatar 2,map,0.11309523809523808,0.5,2,False
+Avatar 2,ndcg,0.7574536010738406,0.5,2,False
+Avatar 2,map,0.12698412698412698,0.5,2,us
+Avatar 2,ndcg,0.802251265574631,0.5,2,us
+Avatar 2,map,0.12222222222222222,0.5,2,ru
+Avatar 2,ndcg,0.6799194612518055,0.5,2,ru
+Avatar 2,map,0.1534090909090909,0.5,5,False
+Avatar 2,ndcg,0.7262983085506062,0.5,5,False
+Avatar 2,map,0.14090909090909093,0.5,5,us
+Avatar 2,ndcg,0.7211332749463284,0.5,5,us
+Avatar 2,map,0.10512820512820513,0.5,5,ru
+Avatar 2,ndcg,0.7502916809959174,0.5,5,ru
+Avatar 2,map,0.13333333333333333,0.5,8,False
+Avatar 2,ndcg,0.6299313867929935,0.5,8,False
+Avatar 2,map,0.13333333333333333,0.5,8,us
+Avatar 2,ndcg,0.6299313867929935,0.5,8,us
+Avatar 2,map,0.13333333333333333,0.5,8,ru
+Avatar 2,ndcg,0.6299313867929935,0.5,8,ru
+Avatar 2,map,0.12237762237762238,0.9,2,False
+Avatar 2,ndcg,0.7477141177726319,0.9,2,False
+Avatar 2,map,0.13392857142857142,0.9,2,us
+Avatar 2,ndcg,0.8230599351055587,0.9,2,us
+Avatar 2,map,0.13392857142857142,0.9,2,ru
+Avatar 2,ndcg,0.6684843199807048,0.9,2,ru
+Avatar 2,map,0.14646464646464646,0.9,5,False
+Avatar 2,ndcg,0.7478629689802224,0.9,5,False
+Avatar 2,map,0.14090909090909093,0.9,5,us
+Avatar 2,ndcg,0.7296852883091287,0.9,5,us
+Avatar 2,map,0.10833333333333334,0.9,5,ru
+Avatar 2,ndcg,0.7564950967160597,0.9,5,ru
+Avatar 2,map,0.13333333333333333,0.9,8,False
+Avatar 2,ndcg,0.6299313867929935,0.9,8,False
+Avatar 2,map,0.13333333333333333,0.9,8,us
+Avatar 2,ndcg,0.6299313867929935,0.9,8,us
+Avatar 2,map,0.13333333333333333,0.9,8,ru
+Avatar 2,ndcg,0.6299313867929935,0.9,8,ru
+Sberbank Online,map,0.6880043567543568,0.1,2,False
+Sberbank Online,ndcg,0.7264772703780535,0.1,2,False
+Sberbank Online,map,0.6640859752992105,0.1,2,us
+Sberbank Online,ndcg,0.7722408127906643,0.1,2,us
+Sberbank Online,map,0.6922643941026294,0.1,2,ru
+Sberbank Online,ndcg,0.7239699829040038,0.1,2,ru
+Sberbank Online,map,0.6962649074781427,0.1,5,False
+Sberbank Online,ndcg,0.6909729748407313,0.1,5,False
+Sberbank Online,map,0.6737624099756452,0.1,5,us
+Sberbank Online,ndcg,0.7709292664495077,0.1,5,us
+Sberbank Online,map,0.6919171718804071,0.1,5,ru
+Sberbank Online,ndcg,0.7565906241013669,0.1,5,ru
+Sberbank Online,map,0.684025757738993,0.1,8,False
+Sberbank Online,ndcg,0.7675562412544636,0.1,8,False
+Sberbank Online,map,0.6952856783739136,0.1,8,us
+Sberbank Online,ndcg,0.7636389864076231,0.1,8,us
+Sberbank Online,map,0.684025757738993,0.1,8,ru
+Sberbank Online,ndcg,0.7675562412544636,0.1,8,ru
+Sberbank Online,map,0.7545177045177045,0.5,2,False
+Sberbank Online,ndcg,0.6846336160160515,0.5,2,False
+Sberbank Online,map,0.6640859752992105,0.5,2,us
+Sberbank Online,ndcg,0.7722408127906643,0.5,2,us
+Sberbank Online,map,0.7473297535797535,0.5,2,ru
+Sberbank Online,ndcg,0.7162300720555657,0.5,2,ru
+Sberbank Online,map,0.6962649074781427,0.5,5,False
+Sberbank Online,ndcg,0.6909729748407313,0.5,5,False
+Sberbank Online,map,0.6737624099756452,0.5,5,us
+Sberbank Online,ndcg,0.7709292664495077,0.5,5,us
+Sberbank Online,map,0.6919171718804071,0.5,5,ru
+Sberbank Online,ndcg,0.7565906241013669,0.5,5,ru
+Sberbank Online,map,0.684025757738993,0.5,8,False
+Sberbank Online,ndcg,0.7675562412544636,0.5,8,False
+Sberbank Online,map,0.6952856783739136,0.5,8,us
+Sberbank Online,ndcg,0.7636389864076231,0.5,8,us
+Sberbank Online,map,0.684025757738993,0.5,8,ru
+Sberbank Online,ndcg,0.7675562412544636,0.5,8,ru
+Sberbank Online,map,0.7545177045177045,0.9,2,False
+Sberbank Online,ndcg,0.6846336160160515,0.9,2,False
+Sberbank Online,map,0.6640859752992105,0.9,2,us
+Sberbank Online,ndcg,0.7722408127906643,0.9,2,us
+Sberbank Online,map,0.7473297535797535,0.9,2,ru
+Sberbank Online,ndcg,0.7162300720555657,0.9,2,ru
+Sberbank Online,map,0.6962649074781427,0.9,5,False
+Sberbank Online,ndcg,0.6909729748407313,0.9,5,False
+Sberbank Online,map,0.6737624099756452,0.9,5,us
+Sberbank Online,ndcg,0.7709292664495077,0.9,5,us
+Sberbank Online,map,0.6919171718804071,0.9,5,ru
+Sberbank Online,ndcg,0.7565906241013669,0.9,5,ru
+Sberbank Online,map,0.684025757738993,0.9,8,False
+Sberbank Online,ndcg,0.7675562412544636,0.9,8,False
+Sberbank Online,map,0.6952856783739136,0.9,8,us
+Sberbank Online,ndcg,0.7636389864076231,0.9,8,us
+Sberbank Online,map,0.684025757738993,0.9,8,ru
+Sberbank Online,ndcg,0.7675562412544636,0.9,8,ru
+youtube,map,0.4910236474521408,0.1,2,False
+youtube,ndcg,0.2637309832510219,0.1,2,False
+youtube,map,0.4691123239211218,0.1,2,us
+youtube,ndcg,0.5345282515997382,0.1,2,us
+youtube,map,0.48810672545137634,0.1,2,ru
+youtube,ndcg,0.2517289050984305,0.1,2,ru
+youtube,map,0.420851663590484,0.1,5,False
+youtube,ndcg,0.381847413660498,0.1,5,False
+youtube,map,0.41972084066420456,0.1,5,us
+youtube,ndcg,0.381847413660498,0.1,5,us
+youtube,map,0.434934945661004,0.1,5,ru
+youtube,ndcg,0.3563909194164648,0.1,5,ru
+youtube,map,0.4321935648136781,0.1,8,False
+youtube,ndcg,0.3563909194164648,0.1,8,False
+youtube,map,0.43016034371748846,0.1,8,us
+youtube,ndcg,0.3563909194164648,0.1,8,us
+youtube,map,0.43205160292397926,0.1,8,ru
+youtube,ndcg,0.3563909194164648,0.1,8,ru
+youtube,map,0.49823631419525133,0.5,2,False
+youtube,ndcg,0.2637309832510219,0.5,2,False
+youtube,map,0.48207441478353946,0.5,2,us
+youtube,ndcg,0.450198238699261,0.5,2,us
+youtube,map,0.48604741872273705,0.5,2,ru
+youtube,ndcg,0.2552102930094994,0.5,2,ru
+youtube,map,0.42236099525146176,0.5,5,False
+youtube,ndcg,0.381847413660498,0.5,5,False
+youtube,map,0.4294182486789512,0.5,5,us
+youtube,ndcg,0.381847413660498,0.5,5,us
+youtube,map,0.4320894631142358,0.5,5,ru
+youtube,ndcg,0.381847413660498,0.5,5,ru
+youtube,map,0.4206334568545985,0.5,8,False
+youtube,ndcg,0.381847413660498,0.5,8,False
+youtube,map,0.42415198397319054,0.5,8,us
+youtube,ndcg,0.381847413660498,0.5,8,us
+youtube,map,0.42687216148264007,0.5,8,ru
+youtube,ndcg,0.381847413660498,0.5,8,ru
+youtube,map,0.4794749732638325,0.9,2,False
+youtube,ndcg,0.28610220618213045,0.9,2,False
+youtube,map,0.48999683584041115,0.9,2,us
+youtube,ndcg,0.44821854217397655,0.9,2,us
+youtube,map,0.48205155795723476,0.9,2,ru
+youtube,ndcg,0.2724951083642108,0.9,2,ru
+youtube,map,0.43202713347015553,0.9,5,False
+youtube,ndcg,0.39163837298512616,0.9,5,False
+youtube,map,0.4407744693483951,0.9,5,us
+youtube,ndcg,0.39163837298512616,0.9,5,us
+youtube,map,0.45906290097756464,0.9,5,ru
+youtube,ndcg,0.39163837298512616,0.9,5,ru
+youtube,map,0.43625389306327006,0.9,8,False
+youtube,ndcg,0.39163837298512616,0.9,8,False
+youtube,map,0.4396332521978665,0.9,8,us
+youtube,ndcg,0.39163837298512616,0.9,8,us
+youtube,map,0.45873550386023254,0.9,8,ru
+youtube,ndcg,0.39163837298512616,0.9,8,ru
+Walberis,map,0.1625,0.1,2,False
+Walberis,ndcg,0.7225974643085961,0.1,2,False
+Walberis,map,0.08596491228070174,0.1,2,us
+Walberis,ndcg,0.6796783455487094,0.1,2,us
+Walberis,map,0.18253968253968253,0.1,2,ru
+Walberis,ndcg,0.8239882154950386,0.1,2,ru
+Walberis,map,0.1380952380952381,0.1,5,False
+Walberis,ndcg,0.6043833038111537,0.1,5,False
+Walberis,map,0.16233766233766234,0.1,5,us
+Walberis,ndcg,0.5422588682713533,0.1,5,us
+Walberis,map,0.1380952380952381,0.1,5,ru
+Walberis,ndcg,0.6043833038111537,0.1,5,ru
+Walberis,map,0.10795454545454546,0.1,8,False
+Walberis,ndcg,0.6218098031253925,0.1,8,False
+Walberis,map,0.10795454545454546,0.1,8,us
+Walberis,ndcg,0.6218098031253925,0.1,8,us
+Walberis,map,0.10795454545454546,0.1,8,ru
+Walberis,ndcg,0.6218098031253925,0.1,8,ru
+Walberis,map,0.1736111111111111,0.5,2,False
+Walberis,ndcg,0.7188874085116934,0.5,2,False
+Walberis,map,0.08596491228070174,0.5,2,us
+Walberis,ndcg,0.7243532000168053,0.5,2,us
+Walberis,map,0.18253968253968253,0.5,2,ru
+Walberis,ndcg,0.8239882154950386,0.5,2,ru
+Walberis,map,0.1380952380952381,0.5,5,False
+Walberis,ndcg,0.6043833038111537,0.5,5,False
+Walberis,map,0.16233766233766234,0.5,5,us
+Walberis,ndcg,0.5422588682713533,0.5,5,us
+Walberis,map,0.1380952380952381,0.5,5,ru
+Walberis,ndcg,0.6043833038111537,0.5,5,ru
+Walberis,map,0.10795454545454546,0.5,8,False
+Walberis,ndcg,0.6218098031253925,0.5,8,False
+Walberis,map,0.10795454545454546,0.5,8,us
+Walberis,ndcg,0.6218098031253925,0.5,8,us
+Walberis,map,0.10795454545454546,0.5,8,ru
+Walberis,ndcg,0.6218098031253925,0.5,8,ru
+Walberis,map,0.1736111111111111,0.9,2,False
+Walberis,ndcg,0.6849590356431069,0.9,2,False
+Walberis,map,0.08834586466165413,0.9,2,us
+Walberis,ndcg,0.7366057236165725,0.9,2,us
+Walberis,map,0.18253968253968253,0.9,2,ru
+Walberis,ndcg,0.8239882154950386,0.9,2,ru
+Walberis,map,0.12916666666666665,0.9,5,False
+Walberis,ndcg,0.6222218259337775,0.9,5,False
+Walberis,map,0.225,0.9,5,us
+Walberis,ndcg,0.527071950840409,0.9,5,us
+Walberis,map,0.18333333333333335,0.9,5,ru
+Walberis,ndcg,0.5789307080791495,0.9,5,ru
+Walberis,map,0.10795454545454546,0.9,8,False
+Walberis,ndcg,0.6218098031253925,0.9,8,False
+Walberis,map,0.10795454545454546,0.9,8,us
+Walberis,ndcg,0.6218098031253925,0.9,8,us
+Walberis,map,0.10795454545454546,0.9,8,ru
+Walberis,ndcg,0.6218098031253925,0.9,8,ru
+Ютуб,map,0.5572442425708637,0.1,2,False
+Ютуб,ndcg,0.6899421912094333,0.1,2,False
+Ютуб,map,0.4702318830347298,0.1,2,us
+Ютуб,ndcg,0.7633689555078296,0.1,2,us
+Ютуб,map,0.5025895126246706,0.1,2,ru
+Ютуб,ndcg,0.7429635640904899,0.1,2,ru
+Ютуб,map,0.5339956953467131,0.1,5,False
+Ютуб,ndcg,0.7301202071075377,0.1,5,False
+Ютуб,map,0.5561559393653216,0.1,5,us
+Ютуб,ndcg,0.7301202071075377,0.1,5,us
+Ютуб,map,0.5362903976321008,0.1,5,ru
+Ютуб,ndcg,0.7503574787066043,0.1,5,ru
+Ютуб,map,0.5182617734400417,0.1,8,False
+Ютуб,ndcg,0.6963076657307944,0.1,8,False
+Ютуб,map,0.5234153571371709,0.1,8,us
+Ютуб,ndcg,0.6963076657307944,0.1,8,us
+Ютуб,map,0.5250077218874304,0.1,8,ru
+Ютуб,ndcg,0.6963076657307944,0.1,8,ru
+Ютуб,map,0.5572442425708637,0.5,2,False
+Ютуб,ndcg,0.6899421912094333,0.5,2,False
+Ютуб,map,0.4702318830347298,0.5,2,us
+Ютуб,ndcg,0.7633689555078296,0.5,2,us
+Ютуб,map,0.4972757474424843,0.5,2,ru
+Ютуб,ndcg,0.7415057086078761,0.5,2,ru
+Ютуб,map,0.531162799189115,0.5,5,False
+Ютуб,ndcg,0.7301202071075377,0.5,5,False
+Ютуб,map,0.541194108864547,0.5,5,us
+Ютуб,ndcg,0.7301202071075377,0.5,5,us
+Ютуб,map,0.5225132978105167,0.5,5,ru
+Ютуб,ndcg,0.7503574787066043,0.5,5,ru
+Ютуб,map,0.4954017874221609,0.5,8,False
+Ютуб,ndcg,0.724068035129875,0.5,8,False
+Ютуб,map,0.4920279682588681,0.5,8,us
+Ютуб,ndcg,0.724068035129875,0.5,8,us
+Ютуб,map,0.4936474014572486,0.5,8,ru
+Ютуб,ndcg,0.7334577431881014,0.5,8,ru
+Ютуб,map,0.5666665872344543,0.9,2,False
+Ютуб,ndcg,0.6907319100695207,0.9,2,False
+Ютуб,map,0.4677039426527714,0.9,2,us
+Ютуб,ndcg,0.7650158928242833,0.9,2,us
+Ютуб,map,0.49980064716249784,0.9,2,ru
+Ютуб,ndcg,0.7403090231651249,0.9,2,ru
+Ютуб,map,0.520208300929659,0.9,5,False
+Ютуб,ndcg,0.7616791700875508,0.9,5,False
+Ютуб,map,0.531379308567309,0.9,5,us
+Ютуб,ndcg,0.7616791700875508,0.9,5,us
+Ютуб,map,0.5443024405579119,0.9,5,ru
+Ютуб,ndcg,0.7616791700875508,0.9,5,ru
+Ютуб,map,0.5144296285740235,0.9,8,False
+Ютуб,ndcg,0.798491568751408,0.9,8,False
+Ютуб,map,0.517877339532234,0.9,8,us
+Ютуб,ndcg,0.798491568751408,0.9,8,us
+Ютуб,map,0.5229048442212004,0.9,8,ru
+Ютуб,ndcg,0.798491568751408,0.9,8,ru
+in contact with,map,0.2970111048371918,0.1,2,False
+in contact with,ndcg,0.5369798181427424,0.1,2,False
+in contact with,map,0.2525017253278123,0.1,2,us
+in contact with,ndcg,0.5570028291041437,0.1,2,us
+in contact with,map,0.15555555555555556,0.1,2,ru
+in contact with,ndcg,0.659511139339961,0.1,2,ru
+in contact with,map,0.30978557504873294,0.1,5,False
+in contact with,ndcg,0.5949106968916046,0.1,5,False
+in contact with,map,0.4153050108932463,0.1,5,us
+in contact with,ndcg,0.41437956356683164,0.1,5,us
+in contact with,map,0.26435185185185184,0.1,5,ru
+in contact with,ndcg,0.5568689144713475,0.1,5,ru
+in contact with,map,0.5454545454545454,0.1,8,False
+in contact with,ndcg,0.29342010818232267,0.1,8,False
+in contact with,map,0.5454545454545454,0.1,8,us
+in contact with,ndcg,0.29342010818232267,0.1,8,us
+in contact with,map,0.5454545454545454,0.1,8,ru
+in contact with,ndcg,0.29342010818232267,0.1,8,ru
+in contact with,map,0.2970111048371918,0.5,2,False
+in contact with,ndcg,0.5548001127718049,0.5,2,False
+in contact with,map,0.2386128364389234,0.5,2,us
+in contact with,ndcg,0.5686058908812941,0.5,2,us
+in contact with,map,0.15787037037037038,0.5,2,ru
+in contact with,ndcg,0.6551027210741441,0.5,2,ru
+in contact with,map,0.36163742690058476,0.5,5,False
+in contact with,ndcg,0.5748165234812334,0.5,5,False
+in contact with,map,0.42507122507122513,0.5,5,us
+in contact with,ndcg,0.4221623642473061,0.5,5,us
+in contact with,map,0.29108309990662934,0.5,5,ru
+in contact with,ndcg,0.532978693717624,0.5,5,ru
+in contact with,map,0.43253968253968256,0.5,8,False
+in contact with,ndcg,0.39091681989640864,0.5,8,False
+in contact with,map,0.4476911976911977,0.5,8,us
+in contact with,ndcg,0.34933613242859646,0.5,8,us
+in contact with,map,0.39087301587301587,0.5,8,ru
+in contact with,ndcg,0.39591250350243423,0.5,8,ru
+in contact with,map,0.2940481418742288,0.9,2,False
+in contact with,ndcg,0.5897323910771832,0.9,2,False
+in contact with,map,0.23027950310559006,0.9,2,us
+in contact with,ndcg,0.5687828222183104,0.9,2,us
+in contact with,map,0.1598539899051408,0.9,2,ru
+in contact with,ndcg,0.6865598916248232,0.9,2,ru
+in contact with,map,0.3950501253132832,0.9,5,False
+in contact with,ndcg,0.5416772510944879,0.9,5,False
+in contact with,map,0.38055555555555554,0.9,5,us
+in contact with,ndcg,0.45851126445817725,0.9,5,us
+in contact with,map,0.28553391053391053,0.9,5,ru
+in contact with,ndcg,0.5754138934873005,0.9,5,ru
+in contact with,map,0.42546897546897544,0.9,8,False
+in contact with,ndcg,0.4025451011213123,0.9,8,False
+in contact with,map,0.3964285714285714,0.9,8,us
+in contact with,ndcg,0.45851126445817725,0.9,8,us
+in contact with,map,0.3043992557150452,0.9,8,ru
+in contact with,ndcg,0.5059257743997351,0.9,8,ru
+Program Guide,map,0.6193381180223286,0.1,2,False
+Program Guide,ndcg,0.700335259050315,0.1,2,False
+Program Guide,map,0.38145817417876243,0.1,2,us
+Program Guide,ndcg,0.8653559005978306,0.1,2,us
+Program Guide,map,0.47412055780476836,0.1,2,ru
+Program Guide,ndcg,0.798177276734948,0.1,2,ru
+Program Guide,map,0.5331975867269985,0.1,5,False
+Program Guide,ndcg,0.7307692307692307,0.1,5,False
+Program Guide,map,0.5331975867269985,0.1,5,us
+Program Guide,ndcg,0.7307692307692307,0.1,5,us
+Program Guide,map,0.5331975867269985,0.1,5,ru
+Program Guide,ndcg,0.7307692307692307,0.1,5,ru
+Program Guide,map,0.5,0.1,8,False
+Program Guide,ndcg,0.75,0.1,8,False
+Program Guide,map,0.5,0.1,8,us
+Program Guide,ndcg,0.75,0.1,8,us
+Program Guide,map,0.5,0.1,8,ru
+Program Guide,ndcg,0.75,0.1,8,ru
+Program Guide,map,0.6008765795607901,0.5,2,False
+Program Guide,ndcg,0.7037076833817879,0.5,2,False
+Program Guide,map,0.3881897759103641,0.5,2,us
+Program Guide,ndcg,0.8553073127120231,0.5,2,us
+Program Guide,map,0.4971158958001063,0.5,2,ru
+Program Guide,ndcg,0.7836439041550727,0.5,2,ru
+Program Guide,map,0.5654029793735675,0.5,5,False
+Program Guide,ndcg,0.7047043473864549,0.5,5,False
+Program Guide,map,0.5463477698771816,0.5,5,us
+Program Guide,ndcg,0.7394199583548435,0.5,5,us
+Program Guide,map,0.5654029793735675,0.5,5,ru
+Program Guide,ndcg,0.7047043473864549,0.5,5,ru
+Program Guide,map,0.5250811688311688,0.5,8,False
+Program Guide,ndcg,0.75,0.5,8,False
+Program Guide,map,0.5250811688311688,0.5,8,us
+Program Guide,ndcg,0.75,0.5,8,us
+Program Guide,map,0.5250811688311688,0.5,8,ru
+Program Guide,ndcg,0.75,0.5,8,ru
+Program Guide,map,0.5842099128941235,0.9,2,False
+Program Guide,ndcg,0.7081912069027368,0.9,2,False
+Program Guide,map,0.3828478955684838,0.9,2,us
+Program Guide,ndcg,0.8568958119532173,0.9,2,us
+Program Guide,map,0.4642154628996734,0.9,2,ru
+Program Guide,ndcg,0.8026605516897561,0.9,2,ru
+Program Guide,map,0.529786003470214,0.9,5,False
+Program Guide,ndcg,0.7381032407271249,0.9,5,False
+Program Guide,map,0.5180610617452722,0.9,5,us
+Program Guide,ndcg,0.7712303524543194,0.9,5,us
+Program Guide,map,0.5252208953756942,0.9,5,ru
+Program Guide,ndcg,0.7381032407271249,0.9,5,ru
+Program Guide,map,0.49109391124871005,0.9,8,False
+Program Guide,ndcg,0.75,0.9,8,False
+Program Guide,map,0.49109391124871005,0.9,8,us
+Program Guide,ndcg,0.75,0.9,8,us
+Program Guide,map,0.49109391124871005,0.9,8,ru
+Program Guide,ndcg,0.75,0.9,8,ru
+ozone,map,0.24368108082393797,0.1,2,False
+ozone,ndcg,0.5230375250452711,0.1,2,False
+ozone,map,0.25871111290365945,0.1,2,us
+ozone,ndcg,0.514103957752315,0.1,2,us
+ozone,map,0.18768173936241164,0.1,2,ru
+ozone,ndcg,0.7715852166300126,0.1,2,ru
+ozone,map,0.22311692353709162,0.1,5,False
+ozone,ndcg,0.4529917927803608,0.1,5,False
+ozone,map,0.22311692353709162,0.1,5,us
+ozone,ndcg,0.4529917927803608,0.1,5,us
+ozone,map,0.19694549756661558,0.1,5,ru
+ozone,ndcg,0.5332948833186975,0.1,5,ru
+ozone,map,0.19694549756661558,0.1,8,False
+ozone,ndcg,0.5332948833186975,0.1,8,False
+ozone,map,0.19694549756661558,0.1,8,us
+ozone,ndcg,0.5332948833186975,0.1,8,us
+ozone,map,0.19694549756661558,0.1,8,ru
+ozone,ndcg,0.5332948833186975,0.1,8,ru
+ozone,map,0.23780961102389672,0.5,2,False
+ozone,ndcg,0.4964253896683472,0.5,2,False
+ozone,map,0.25294168391994476,0.5,2,us
+ozone,ndcg,0.5100471706409998,0.5,2,us
+ozone,map,0.18887221555288786,0.5,2,ru
+ozone,ndcg,0.7586265540105972,0.5,2,ru
+ozone,map,0.2048486715669378,0.5,5,False
+ozone,ndcg,0.5232387211401642,0.5,5,False
+ozone,map,0.22230993407463998,0.5,5,us
+ozone,ndcg,0.44987949774729186,0.5,5,us
+ozone,map,0.18537226484796818,0.5,5,ru
+ozone,ndcg,0.5765350089931864,0.5,5,ru
+ozone,map,0.19694549756661558,0.5,8,False
+ozone,ndcg,0.5332948833186975,0.5,8,False
+ozone,map,0.19694549756661558,0.5,8,us
+ozone,ndcg,0.5332948833186975,0.5,8,us
+ozone,map,0.19694549756661558,0.5,8,ru
+ozone,ndcg,0.5332948833186975,0.5,8,ru
+ozone,map,0.2469049158124788,0.9,2,False
+ozone,ndcg,0.49642538966834726,0.9,2,False
+ozone,map,0.2966993151775761,0.9,2,us
+ozone,ndcg,0.40807219341029827,0.9,2,us
+ozone,map,0.1901662114121011,0.9,2,ru
+ozone,ndcg,0.7973310783085996,0.9,2,ru
+ozone,map,0.22311692353709162,0.9,5,False
+ozone,ndcg,0.4529917927803608,0.9,5,False
+ozone,map,0.23895159073730501,0.9,5,us
+ozone,ndcg,0.44427634505651664,0.9,5,us
+ozone,map,0.18860990268312924,0.9,5,ru
+ozone,ndcg,0.5987094324160013,0.9,5,ru
+ozone,map,0.19694549756661558,0.9,8,False
+ozone,ndcg,0.5332948833186975,0.9,8,False
+ozone,map,0.21688837478311165,0.9,8,us
+ozone,ndcg,0.5987094324160013,0.9,8,us
+ozone,map,0.18860990268312924,0.9,8,ru
+ozone,ndcg,0.5987094324160013,0.9,8,ru
+Weather tomorrow,map,0.6400247985752188,0.1,2,False
+Weather tomorrow,ndcg,0.9118330957791417,0.1,2,False
+Weather tomorrow,map,0.6400247985752188,0.1,2,us
+Weather tomorrow,ndcg,0.9118330957791417,0.1,2,us
+Weather tomorrow,map,0.7777777777777778,0.1,2,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.1,2,ru
+Weather tomorrow,map,0.6557492398668869,0.1,5,False
+Weather tomorrow,ndcg,0.6371307752498958,0.1,5,False
+Weather tomorrow,map,0.6557492398668869,0.1,5,us
+Weather tomorrow,ndcg,0.6371307752498958,0.1,5,us
+Weather tomorrow,map,0.7777777777777778,0.1,5,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.1,5,ru
+Weather tomorrow,map,0.7103936727735355,0.1,8,False
+Weather tomorrow,ndcg,0.39723943072260703,0.1,8,False
+Weather tomorrow,map,0.7103936727735355,0.1,8,us
+Weather tomorrow,ndcg,0.39723943072260703,0.1,8,us
+Weather tomorrow,map,0.7777777777777778,0.1,8,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.1,8,ru
+Weather tomorrow,map,0.6352995549957745,0.5,2,False
+Weather tomorrow,ndcg,0.9492642073830181,0.5,2,False
+Weather tomorrow,map,0.6352995549957745,0.5,2,us
+Weather tomorrow,ndcg,0.9492642073830181,0.5,2,us
+Weather tomorrow,map,0.7777777777777778,0.5,2,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.5,2,ru
+Weather tomorrow,map,0.6318924129761005,0.5,5,False
+Weather tomorrow,ndcg,0.7622771865357186,0.5,5,False
+Weather tomorrow,map,0.6318924129761005,0.5,5,us
+Weather tomorrow,ndcg,0.7622771865357186,0.5,5,us
+Weather tomorrow,map,0.7777777777777778,0.5,5,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.5,5,ru
+Weather tomorrow,map,0.6361932724848326,0.5,8,False
+Weather tomorrow,ndcg,0.7291729049521745,0.5,8,False
+Weather tomorrow,map,0.6361932724848326,0.5,8,us
+Weather tomorrow,ndcg,0.7291729049521745,0.5,8,us
+Weather tomorrow,map,0.7777777777777778,0.5,8,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.5,8,ru
+Weather tomorrow,map,0.6479628176590372,0.9,2,False
+Weather tomorrow,ndcg,0.9118330957791417,0.9,2,False
+Weather tomorrow,map,0.6479628176590372,0.9,2,us
+Weather tomorrow,ndcg,0.9118330957791417,0.9,2,us
+Weather tomorrow,map,0.7777777777777778,0.9,2,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.9,2,ru
+Weather tomorrow,map,0.6441046887996101,0.9,5,False
+Weather tomorrow,ndcg,0.7742915734008711,0.9,5,False
+Weather tomorrow,map,0.6441046887996101,0.9,5,us
+Weather tomorrow,ndcg,0.7742915734008711,0.9,5,us
+Weather tomorrow,map,0.7777777777777778,0.9,5,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.9,5,ru
+Weather tomorrow,map,0.647784126386611,0.9,8,False
+Weather tomorrow,ndcg,0.7150733614991065,0.9,8,False
+Weather tomorrow,map,0.647784126386611,0.9,8,us
+Weather tomorrow,ndcg,0.7150733614991065,0.9,8,us
+Weather tomorrow,map,0.7777777777777778,0.9,8,ru
+Weather tomorrow,ndcg,0.2795388586566494,0.9,8,ru
+Sberbank,map,0.15555555555555556,0.1,2,False
+Sberbank,ndcg,0.6684038266128355,0.1,2,False
+Sberbank,map,0.15555555555555556,0.1,2,us
+Sberbank,ndcg,0.6684038266128355,0.1,2,us
+Sberbank,map,0.1111111111111111,0.1,2,ru
+Sberbank,ndcg,0.656138234687891,0.1,2,ru
+Sberbank,map,0.12916666666666665,0.1,5,False
+Sberbank,ndcg,0.7376866319370173,0.1,5,False
+Sberbank,map,0.12916666666666665,0.1,5,us
+Sberbank,ndcg,0.7376866319370173,0.1,5,us
+Sberbank,map,0.1111111111111111,0.1,5,ru
+Sberbank,ndcg,0.656138234687891,0.1,5,ru
+Sberbank,map,0.12916666666666665,0.1,8,False
+Sberbank,ndcg,0.7376866319370173,0.1,8,False
+Sberbank,map,0.12916666666666665,0.1,8,us
+Sberbank,ndcg,0.7376866319370173,0.1,8,us
+Sberbank,map,0.1111111111111111,0.1,8,ru
+Sberbank,ndcg,0.656138234687891,0.1,8,ru
+Sberbank,map,0.15555555555555556,0.5,2,False
+Sberbank,ndcg,0.5987294198731657,0.5,2,False
+Sberbank,map,0.15555555555555556,0.5,2,us
+Sberbank,ndcg,0.5987294198731657,0.5,2,us
+Sberbank,map,0.1111111111111111,0.5,2,ru
+Sberbank,ndcg,0.656138234687891,0.5,2,ru
+Sberbank,map,0.12916666666666665,0.5,5,False
+Sberbank,ndcg,0.7376866319370173,0.5,5,False
+Sberbank,map,0.12916666666666665,0.5,5,us
+Sberbank,ndcg,0.7376866319370173,0.5,5,us
+Sberbank,map,0.1111111111111111,0.5,5,ru
+Sberbank,ndcg,0.656138234687891,0.5,5,ru
+Sberbank,map,0.12916666666666665,0.5,8,False
+Sberbank,ndcg,0.7376866319370173,0.5,8,False
+Sberbank,map,0.12916666666666665,0.5,8,us
+Sberbank,ndcg,0.7376866319370173,0.5,8,us
+Sberbank,map,0.1111111111111111,0.5,8,ru
+Sberbank,ndcg,0.656138234687891,0.5,8,ru
+Sberbank,map,0.18055555555555555,0.9,2,False
+Sberbank,ndcg,0.6343641482758845,0.9,2,False
+Sberbank,map,0.18055555555555555,0.9,2,us
+Sberbank,ndcg,0.6343641482758845,0.9,2,us
+Sberbank,map,0.1111111111111111,0.9,2,ru
+Sberbank,ndcg,0.656138234687891,0.9,2,ru
+Sberbank,map,0.15476190476190477,0.9,5,False
+Sberbank,ndcg,0.6831564444372149,0.9,5,False
+Sberbank,map,0.15476190476190477,0.9,5,us
+Sberbank,ndcg,0.6831564444372149,0.9,5,us
+Sberbank,map,0.1111111111111111,0.9,5,ru
+Sberbank,ndcg,0.656138234687891,0.9,5,ru
+Sberbank,map,0.12916666666666665,0.9,8,False
+Sberbank,ndcg,0.7376866319370173,0.9,8,False
+Sberbank,map,0.12916666666666665,0.9,8,us
+Sberbank,ndcg,0.7376866319370173,0.9,8,us
+Sberbank,map,0.1111111111111111,0.9,8,ru
+Sberbank,ndcg,0.656138234687891,0.9,8,ru

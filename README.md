@@ -1,3 +1,10 @@
 # 549proj
 
-comparing google and yandex
+To run the web app, follow these steps:
+
+```
+cd flask_app
+./setup.sh
+```
+
+Then, click the link and explore the web app!
